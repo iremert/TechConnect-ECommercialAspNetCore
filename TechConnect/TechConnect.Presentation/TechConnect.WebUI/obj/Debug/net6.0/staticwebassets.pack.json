@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\TechConnect.WebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\cart\\css\\style.css",
+      "PackagePath": "staticwebassets\\cart\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\cart\\css\\style.txt",
+      "PackagePath": "staticwebassets\\cart\\css\\style.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\cart\\image\\chip.png",
+      "PackagePath": "staticwebassets\\cart\\image\\chip.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\cart\\image\\visa.png",
+      "PackagePath": "staticwebassets\\cart\\image\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\cart\\index.txt",
+      "PackagePath": "staticwebassets\\cart\\index.txt"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
