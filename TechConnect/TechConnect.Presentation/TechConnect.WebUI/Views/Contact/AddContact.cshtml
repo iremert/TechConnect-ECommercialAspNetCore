@@ -1,0 +1,16 @@
+﻿@model TechConnect.DtoUI.ContactDtos.CreateContactDto
+
+<form asp-action="mesaj-ekle" asp-controller="iletişim" method="post">
+    <div class="row">
+        <div class="col-lg-6">
+            <input type="text" asp-for="Name" placeholder="Adınız">
+        </div>
+        <div class="col-lg-6">
+            <input type="text" asp-for="Email" placeholder="Emailiniz">
+        </div>
+        <div class="col-lg-12">
+            <textarea placeholder="Mesajınız" style="height:300px;" asp-for="Message"></textarea>
+            <button type="submit"  class="site-btn">Mesaj Gönder</button>
+        </div>
+    </div>
+</form>

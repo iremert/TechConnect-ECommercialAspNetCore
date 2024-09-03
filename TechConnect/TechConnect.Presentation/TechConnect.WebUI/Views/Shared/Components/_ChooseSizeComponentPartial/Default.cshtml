@@ -1,0 +1,29 @@
+﻿@model TechConnect.DtoUI.CategoryDtos.ResultCategoryDto
+
+<div class="product__details__option__size">
+    <span>Ekran Boyutu:</span>
+    <!-- 13.3 inç -->
+    @foreach (var item in Model.Size)
+    {
+        @if (item == ViewBag.sizenow)
+        {
+            <a href="/ürünler/ürün-detay/boyut/@item/@ViewBag.id">
+                <label for="size-13" style="background-color:grey">
+                    @item 
+                </label>
+            </a>
+        }
+        else
+        {
+            <a href="/ürünler/ürün-detay/boyut/@item/@ViewBag.id">
+                <label for="size-13">
+                    @item
+                </label>
+            </a>
+        }
+       
+    }
+
+
+
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TechConnect.WebUI.props" />
+</Project>

@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Index2";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/login/css/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .vertical-line {
+            border-left: 2px solid black; /* Çizginin kalınlığı ve rengi */
+            height: 350px; /* Çizginin yüksekliği */
+            margin-left: 70px; /* Çizginin sol kenara olan uzaklığı */
+        }
+    </style>
+
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login" style="margin-bottom:70px;">
+            <div class="form-content" style="display:flex;">
+
+                <form action="#" style="padding:30px;border-radius:10px; max-width: 500px;width: 100%;justify-content: center; align-items: center;margin-left:50px;">
+                    <header>Şifremi Unuttum</header>
+                    <div class="field input-field">
+                        <input type="email" placeholder="Emailinizi Giriniz.." class="input">
+                    </div>
+
+                    <p style="color:red;font-size:13px;">*Yeni şifre oluşturmanız için email adresinize bir bağlantı gönderilecektir!</p>
+
+                    <div class="field button-field">
+                        <button>Şifre Sıfırlama</button>
+                    </div>
+                </form>
+                <div class="vertical-line"></div>
+                <div class="form-link" style="margin-top:10px;margin-left:20px;display:flex;">
+                    <img src="~/login/images/forget.png" style="height:150px;width:150px;color:red;margin-left:150px;margin-top:70px; " alt="irem" />
+                    <span style="margin-top:230px;position:absolute;margin-left:160px;">Hesabınız var mı?</span>
+                    <a style="margin-top:255px;position:absolute;margin-left:185px;" href="/giriş-yap/">Giriş Yap</a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="~/login/js/script.js"></script>
+</body>
+</html>

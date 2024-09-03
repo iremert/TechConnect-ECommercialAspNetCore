@@ -1,0 +1,154 @@
+﻿@model List<TechConnect.DtoUI.ProductDto.ResultProductDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Ürünler</h4>
+                    <div class="breadcrumb__links">
+                        <a href="./index.html">Anasayfa</a>
+                        <span>Ürünler</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<section class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shop__sidebar">
+                    @await Component.InvokeAsync("_SearchComponentPartial")
+                    <div class="shop__sidebar__accordion">
+                        <div class="accordion" id="accordionExample">
+                            <p> <a href="/ürünler/" style="color:black;">Tüm Ürünlere Dön...</a></p>
+                            <br />
+                            @await Component.InvokeAsync("_CategoryListComponentPartial")
+                            @await Component.InvokeAsync("_BrandListComponentPartial")
+
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseThree">Fiyatı Filtrele</a>
+                                </div>
+                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__price">
+                                            <ul>
+                                                <li><a href="/ürünler/price/0/1000">0.00₺ - 1000.00₺</a></li>
+                                                <li><a href="/ürünler/price/1000/2000">1000.00₺ - 2000.00₺</a></li>
+                                                <li><a href="/ürünler/price/2000/4000">2000.00₺ - 4000.00₺</a></li>
+                                                <li><a href="/ürünler/price/4000/6000">4000.00₺ - 6000.00₺</a></li>
+                                                <li><a href="/ürünler/price/6000/10000">6000.00₺ - 10000.00₺</a></li>
+                                                <li><a href="/ürünler/price/10000.00/10000000.00">10000.00+</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @await Component.InvokeAsync("_SizeListComponentPartial")
+                            @await Component.InvokeAsync("_ColorListComponentPartial")
+                            @await Component.InvokeAsync("_TagListComponentPartial")
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="shop__product__option">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="shop__product__option__left">
+                                <p>@ViewBag.count sonuçtan 1–12 gösteriliyor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="shop__product__option__right">
+                                <p>Sıralama Seç:</p>
+                                <select>
+                                    <option value="">Düşükten - Yükseğe</option>
+                                    <option value="">Yüksekten - Düşüğe</option>
+                                    <option value="">Yeniden - Eskiye</option>
+                                    <option value="">Eskiden - Yeniye</option>
+                                    <option value="">Ortalama Puana Göre Sırala</option>
+                                    <option value="">En Çok Satılana Göre Sırala</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" onclick="window.location.href='/ürünler/ürün-detay/@item.ID';" data-setbg="@item.ProductImageUrl">
+                                    <ul class="product__hover">
+
+                                        @if(item.IsFavourite==true)
+                                        {
+                                            <li><a href="/favoriler/favori-kaldır/@item.ID"><img style="background-color:red;" src="~/tech/img/icon/heart.png" alt=""><span>Fav. Kaldır</span></a></li>
+
+                                        }
+                                        else
+                                        {
+                                            <li><a href="/favoriler/favori-ekle/@item.ID"><img src="~/tech/img/icon/heart.png" alt=""><span>Fav. Ekle</span></a></li>
+                                        }
+
+                                        @if (item.IsCompare == true)
+                                        {
+                                            <li>
+                                                <a href="/karşılaştır/karşılaştır-kaldır/@item.ID"><img style="background-color:lightskyblue;" src="~/tech/img/icon/compare.png" alt=""> <span>Karşılaştır</span></a>
+                                            </li>
+
+                                        }
+                                        else
+                                        {
+                                            <li>
+                                                <a href="/karşılaştır/karşılaştır-ekle/@item.ID"><img src="~/tech/img/icon/compare.png" alt=""> <span>Karşılaştır</span></a>
+                                            </li>
+                                        }
+                                        <li><a href="/ürünler/benzer-ürünler/@item.ID"><img src="~/tech/img/icon/search.png" alt=""><span>Arama Yap</span></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="product__item__text">
+                                    <h6>@item.ProductName</h6>
+                                    <a href="#" class="add-cart">+ Sepete Ekle</a>
+                                    <div class="rating">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <h5>@item.ProductPrice ₺</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product__pagination">
+                            <a class="active" href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <span>...</span>
+                            <a href="#">21</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

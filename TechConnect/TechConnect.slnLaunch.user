@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "TechConnect.Presentation\\TechConnect.WebUI\\TechConnect.WebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "TechConnect.Api\\TechConnect.Api\\TechConnect.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

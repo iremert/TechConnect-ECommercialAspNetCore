@@ -1,0 +1,79 @@
+﻿@model TechConnect.DtoUI.IdentityDtos.LoginDtos.SignInDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/login/css/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .vertical-line {
+            border-left: 2px solid black; /* Çizginin kalınlığı ve rengi */
+            height: 460px; /* Çizginin yüksekliği */
+            margin-left: 70px; /* Çizginin sol kenara olan uzaklığı */
+        }
+    </style>
+
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login" style="margin-bottom:70px;">
+            <div class="form-content" style="display:flex;">
+                
+                <form method="post" style="padding:30px;border-radius:10px; max-width: 500px;width: 100%;justify-content: center; align-items: center;margin-left:50px;">
+                    <header>Giriş Yap</header>
+                    <div class="field input-field">
+                        <input type="email" required asp-for="Email"  placeholder="Emailinizi Giriniz..." class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" required placeholder="Şifreniz.." asp-for="Password"  class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div style="display:flex;">
+                        <div class="form-link" style="display:flex;width:230px;">
+                            <input  type="checkbox"/>
+                            <p style="margin-top:15px;margin-left:5px;">Beni Hatırla</p>
+                        </div>
+
+                        <div class="form-link" style="margin-left:200px;">
+                            <a href="/giriş-yap/şifremi-unuttum/" class="forgot-pass">Şifrenizi mi unuttunuz?</a>
+                        </div>
+                    </div>
+                  
+
+                    <div class="field button-field">
+                        <button>Giriş Yap</button>
+                    </div>
+                </form>
+                <div class="vertical-line"></div>
+                <div class="form-link" style="margin-top:50px;margin-left:20px;display:flex;" >
+                    <img src="~/login/images/user.png" style="height:135px;width:135px;color:red;margin-left:150px;margin-top:70px; " alt="irem" />
+                    <span style="margin-top:230px;position:absolute;margin-left:130px;">Henüz hesabınız yok mu?</span>
+                    <a style="margin-top:255px;position:absolute;margin-left:165px;"  href="/kayıt-ol/" >Hesap Oluştur</a>
+                  
+                </div>
+               
+
+            </div>
+
+        </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="~/login/js/script.js"></script>
+</body>
+</html>
+

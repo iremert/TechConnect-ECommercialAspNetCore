@@ -1,0 +1,20 @@
+﻿@model TechConnect.DtoUI.BrandDtos.ResultBrandDto
+
+<div class="card">
+    <div class="card-heading">
+        <a data-toggle="collapse" data-target="#collapseTwo">Markalar</a>
+    </div>
+    <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+        <div class="card-body">
+            <div class="shop__sidebar__brand">
+                <ul>
+                    @foreach(var item in Model.BrandNames)
+                    {
+                        <li><a href="/ürünler/marka/@item">@item</a></li>
+                    }
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

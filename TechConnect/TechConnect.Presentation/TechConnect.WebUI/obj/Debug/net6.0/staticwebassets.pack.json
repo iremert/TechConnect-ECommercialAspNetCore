@@ -1,0 +1,885 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TechConnect.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TechConnect.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\css\\style.css",
+      "PackagePath": "staticwebassets\\login\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\images\\forget.png",
+      "PackagePath": "staticwebassets\\login\\images\\forget.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\images\\google.png",
+      "PackagePath": "staticwebassets\\login\\images\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\images\\user.png",
+      "PackagePath": "staticwebassets\\login\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\images\\user2.png",
+      "PackagePath": "staticwebassets\\login\\images\\user2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\index.html",
+      "PackagePath": "staticwebassets\\login\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\login\\js\\script.js",
+      "PackagePath": "staticwebassets\\login\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\Magnific-Popup-master.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\Magnific-Popup-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\bootstrap-4.2.1-dist.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\bootstrap-4.2.1-dist.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\elegant_font.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\elegant_font.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\Source\\jquery-nice-select-1.1.0.zip",
+      "PackagePath": "staticwebassets\\tech\\Source\\jquery-nice-select-1.1.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\about.html",
+      "PackagePath": "staticwebassets\\tech\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\blog-details.html",
+      "PackagePath": "staticwebassets\\tech\\blog-details.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\blog.html",
+      "PackagePath": "staticwebassets\\tech\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\checkout.html",
+      "PackagePath": "staticwebassets\\tech\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\contact.html",
+      "PackagePath": "staticwebassets\\tech\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\tech\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\tech\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\tech\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\tech\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\tech\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\tech\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\tech\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\style.css",
+      "PackagePath": "staticwebassets\\tech\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\tech\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\tech\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\tech\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\tech\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\tech\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\tech\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\tech\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\tech\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\tech\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\tech\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\tech\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\about-us.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\testimonial-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\about\\testimonial-pic.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\about\\testimonial-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\arkaplan1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\arkaplan1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\arkaplan2.png",
+      "PackagePath": "staticwebassets\\tech\\img\\arkaplan2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\arkaplan3.gif",
+      "PackagePath": "staticwebassets\\tech\\img\\arkaplan3.gif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\details\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\details\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\blog\\details\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\blog\\details\\blog-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\tech\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\tech\\img\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\tech\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\tech\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\icon\\compare.png",
+      "PackagePath": "staticwebassets\\tech\\img\\icon\\compare.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\tech\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\tech\\img\\icon\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\instagram\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\instagram\\instagram-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\instagram\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\instagram\\instagram-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\instagram\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\instagram\\instagram-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\instagram\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\instagram\\instagram-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\instagram\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\instagram\\instagram-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\instagram\\instagram-6.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\instagram\\instagram-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\logo.png",
+      "PackagePath": "staticwebassets\\tech\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\payment.png",
+      "PackagePath": "staticwebassets\\tech\\img\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product-sale.png",
+      "PackagePath": "staticwebassets\\tech\\img\\product-sale.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\satya.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\satya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\details-payment.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\details-payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\product-big-2.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\product-big-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\product-big-3.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\product-big-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\product-big-4.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\product-big-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\product-big.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\product-big.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\thumb-1.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\thumb-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\thumb-2.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\thumb-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\thumb-3.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\thumb-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shop-details\\thumb-4.png",
+      "PackagePath": "staticwebassets\\tech\\img\\shop-details\\thumb-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shopping-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\shopping-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shopping-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\shopping-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shopping-cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\shopping-cart\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\shopping-cart\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\tech\\img\\shopping-cart\\cart-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\techconnect.png",
+      "PackagePath": "staticwebassets\\tech\\img\\techconnect.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\techconnect2.png",
+      "PackagePath": "staticwebassets\\tech\\img\\techconnect2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\img\\techconnect3.png",
+      "PackagePath": "staticwebassets\\tech\\img\\techconnect3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\index.html",
+      "PackagePath": "staticwebassets\\tech\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\tech\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\main.js",
+      "PackagePath": "staticwebassets\\tech\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\tech\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\main.html",
+      "PackagePath": "staticwebassets\\tech\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\readme.txt",
+      "PackagePath": "staticwebassets\\tech\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_about.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_blog-sidebar.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_blog-sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_checkout.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_home-page.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_home-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_product.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_product.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_shop-details.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_shop-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_shop.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_shopping-cart.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_shopping-cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\_variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\tech\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\shop-details.html",
+      "PackagePath": "staticwebassets\\tech\\shop-details.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\shop.html",
+      "PackagePath": "staticwebassets\\tech\\shop.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.Presentation\\TechConnect.WebUI\\wwwroot\\tech\\shopping-cart.html",
+      "PackagePath": "staticwebassets\\tech\\shopping-cart.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TechConnect.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TechConnect.WebUI.props",
+      "PackagePath": "build\\TechConnect.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TechConnect.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\TechConnect.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TechConnect.WebUI.props",
+      "PackagePath": "buildTransitive\\TechConnect.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

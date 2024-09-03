@@ -1,0 +1,23 @@
+﻿@model List<TechConnect.DtoUI.ColorDtos.ResultColorDto>
+
+
+<div class="card">
+    <div class="card-heading">
+        <a data-toggle="collapse" data-target="#collapseFive">Renkler</a>
+    </div>
+    <div id="collapseFive" class="collapse show" data-parent="#accordionExample">
+        <div class="card-body">
+            <div class="shop__sidebar__color">
+                @foreach (var item in Model)
+                {
+                    <a href="/ürünler/renk/@item.ID">
+                        <label class="c-1" for="sp-1" style="background-color:@item.ColorName">
+                            
+                        </label>
+                    </a>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+
+
+<!-- Map Begin -->
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.680702089577!2d29.73796107584591!3d40.769046971385045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb391dc6106b93%3A0xa95e6a2426c9a16f!2zWWFyxLFtY2EgU2FoaWwgUGFya8SxLCBLw7ZyZmV6L0tvY2FlbGk!5e0!3m2!1str!2str!4v1724863786615!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- Map End -->
+
+
+<!-- Contact Section Begin -->
+<section class="contact spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="contact__text">
+                    <div class="section-title">
+                        <span>Bilgi</span>
+                        <h2>Bize Ulaş</h2>
+                        <p>
+                            Herhangi bir sorunuz, sorununuz veya desteğe ihtiyacınız varsa,
+                            lütfen bizimle iletişime geçin. Müşteri destek ekibimiz size yardımcı olmaktan memnuniyet duyacaktır.
+
+                        </p>
+                    </div>
+                    <ul>
+                        @await Component.InvokeAsync("_Contact2ComponentPartial")
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="contact__form">
+                    @await Html.PartialAsync("~/Views/Contact/AddContact.cshtml")
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->

@@ -1,0 +1,9 @@
+﻿@model List<TechConnect.DtoUI.Contact2Dtos.ResultContact2Dto>
+
+@foreach (var item in Model)
+{
+    <li>
+        <h4>@item.Place</h4>
+        <p>@item.Address<br />@item.Number</p>
+    </li>
+}

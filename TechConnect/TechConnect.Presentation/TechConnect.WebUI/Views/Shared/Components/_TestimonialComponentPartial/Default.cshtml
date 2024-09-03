@@ -1,0 +1,34 @@
+﻿@model List<TechConnect.DtoUI.TestimonialDtos.ResultTestimonialDto>
+
+ <!-- Testimonial Section Begin -->
+<section class="testimonial">
+    <div class="container-fluid">
+        @foreach(var item in Model)
+        {
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <div class="testimonial__text">
+                        <span class="icon_quotations"></span>
+                        <p>
+                            “@item.Quote”
+                        </p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author__pic">
+                                <img src="@item.TestimonialImageUrl" alt="">
+                            </div>
+                            <div class="testimonial__author__text">
+                                <h5>@item.TestimonialName</h5>
+                                <p>@item.TestimonialJob</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <img src="@item.TestimonialImageUrl2" style="width:1000px;height:600px;" alt="">
+                </div>
+            </div>
+        }
+        
+    </div>
+</section>
+<!-- Testimonial Section End -->

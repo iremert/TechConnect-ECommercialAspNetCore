@@ -1,0 +1,60 @@
+﻿@model List<TechConnect.DtoUI.CompareDtos.ResultCompareDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+
+
+
+<section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shopping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ürün</th>
+                                <th></th>
+                                <th>Fiyat</th>
+                                <th>Sepete Ekle</th>
+                                <th>(@ViewBag.count)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="@item.Product.ProductImageUrl" style="height:120px;width:120px;" alt="">
+                                        </div>
+                                        <div class="product__cart__item__text">
+                                            <h6 style="font-size:13px;">@item.Product.ProductName</h6>
+                                            <h5>@item.Product.ProductPrice ₺</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">
+                                      
+                                    </td>
+                                    <td class="cart__price">@item.Product.ProductPrice ₺</td>
+                                    <td class="cart__favori">
+                                        <a href="#" class="add-cart" style="font-size: 15px;color: #e53637;font-weight: 700;-webkit-transition: all, 0.3s;-o-transition: all, 0.3s;transition: all, 0.3s;">+ Sepete Ekle</a>
+                                    </td>
+                                    <td class="cart__close2"  >
+                                        <div style="border-radius: 50%;height: 40px;width: 40px;line-height: 40px;text-align: center;background-color:lightskyblue;">
+                                            <a href="/karşılaştır/karşılaştır-kaldır/@item.ID"><img src="~/tech/img/icon/compare.png" style="height:15px;width:15px;" alt=""></a>
+                                        </div>
+                                        
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

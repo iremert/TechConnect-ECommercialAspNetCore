@@ -1,0 +1,118 @@
+﻿@model List<TechConnect.DtoUI.ProductDto.ResultProductDto>
+@{
+    ViewData["Title"] = "Index2";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Aranan Ürünler</h4>
+                    <div class="breadcrumb__links">
+                        <a href="./index.html">Anasayfa</a>
+                        <span>Aranan Ürünler</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<section class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shop__product__option">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="shop__product__option__left">
+                                <p>@ViewBag.count sonuçtan 1–12 gösteriliyor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="shop__product__option__right">
+                                <p>Sıralama Seç:</p>
+                                <select>
+                                    <option value="">Düşükten - Yükseğe</option>
+                                    <option value="">Yüksekten - Düşüğe</option>
+                                    <option value="">Yeniden - Eskiye</option>
+                                    <option value="">Eskiden - Yeniye</option>
+                                    <option value="">Ortalama Puana Göre Sırala</option>
+                                    <option value="">En Çok Satılana Göre Sırala</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" onclick="window.location.href='/ürünler/ürün-detay/@item.ID';" data-setbg="@item.ProductImageUrl">
+                                    <ul class="product__hover">
+
+                                        @if (item.IsFavourite == true)
+                                        {
+                                            <li><a href="/favoriler/favori-kaldır/@item.ID"><img style="background-color:red;" src="~/tech/img/icon/heart.png" alt=""><span>Fav. Kaldır</span></a></li>
+
+                                        }
+                                        else
+                                        {
+                                            <li><a href="/favoriler/favori-ekle/@item.ID"><img src="~/tech/img/icon/heart.png" alt=""><span>Fav. Ekle</span></a></li>
+                                        }
+
+                                        @if (item.IsCompare == true)
+                                        {
+                                            <li>
+                                                <a href="/karşılaştır/karşılaştır-kaldır/@item.ID"><img style="background-color:lightskyblue;" src="~/tech/img/icon/compare.png" alt=""> <span>Karşılaştır</span></a>
+                                            </li>
+
+                                        }
+                                        else
+                                        {
+                                            <li>
+                                                <a href="/karşılaştır/karşılaştır-ekle/@item.ID"><img src="~/tech/img/icon/compare.png" alt=""> <span>Karşılaştır</span></a>
+                                            </li>
+                                        }
+                                        <li><a href="#"><img src="~/tech/img/icon/search.png" alt=""><span>Arama Yap</span></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="product__item__text">
+                                    <h6>@item.ProductName</h6>
+                                    <a href="#" class="add-cart">+ Sepete Ekle</a>
+                                    <div class="rating">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <h5>@item.ProductPrice ₺</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product__pagination">
+                            <a class="active" href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <span>...</span>
+                            <a href="#">21</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,15 @@
+﻿@model List<TechConnect.DtoUI.ColorDtos.ResultColorDto>
+
+<div class="product__details__option__color">
+    <span>Renk:</span>
+    <!-- Renk 1: Siyah -->
+    @foreach (var item in Model)
+    {
+        <a href="/ürünler/ürün-detay/renk/@item.ID/@ViewBag.id">
+            <label class="c-1" for="sp-1" style="background-color: @item.ColorName;">
+
+            </label>
+        </a>
+    }
+
+</div>
