@@ -29,6 +29,7 @@ namespace TechConnect.WebUI.ViewComponents.AboutViewComponent
             {
                 var responseMessage = await request.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultTestimonialDto>>(responseMessage);
+                values = values.Where(x => x.Status = true).ToList();
                 return View(values);
             }
             return View();

@@ -14,9 +14,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TechConnect</title>
 
+
+
+
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
     rel="stylesheet">
+
+
+   
 
 
     <link rel="icon" sizes="50x50" href="~/tech/img/techconnect3.png"  type="image/x-icon">
@@ -47,20 +54,13 @@
                 <a href="#">Giriş Yap</a>
                 <a href="#">Kayıt Ol</a>
             </div>
-            <div class="offcanvas__top__hover">
-                <span>TR <i class="arrow_carrot-down"></i></span>
-                <ul>
-                    <li>TR</li>
-                    <li>EUR</li>
-                    <li>USD</li>
-                </ul>
-            </div>
+            
         </div>
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="~/tech/img/icon/search.png" alt=""></a>
             <a href="#"><img src="~/tech/img/icon/heart.png" alt=""></a>
-            <a href="#"><img src="~/tech/img/icon/cart.png" alt=""> <span>0</span></a>
-            <div class="price">$0.00</div>
+            <a href="#"><img src="~/tech/img/icon/cart.png" alt=""> <span>@ViewBag.shoppingcount</span></a>
+            <div class="price">@ViewBag.shoppingprice ₺</div>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
@@ -74,25 +74,16 @@
         <div class="header__top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-7">
+                    <div class="col-lg-7 col-md-7">
                         <div class="header__top__left">
                             <p>Ücretsiz kargo, 30 gün içinde iade veya para iadesi garantisi.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-5">
+                    <div class="col-lg-5 col-md-5">
                         <div class="header__top__right">
-                            <div class="header__top__links">
-                                 <a href="/giriş-yap/">Giriş Yap</a>
-                                 <a href="/kayıt-ol/">Kayıt Ol</a>
-                            </div>
-                            <div class="header__top__hover">
-                                <span>TR <i class="arrow_carrot-down"></i></span>
-                                <ul>
-                                    <li>TR</li>
-                                    <li>EUR</li>
-                                    <li>USD</li>
-                                </ul>
-                            </div>
+                            @await Component.InvokeAsync("_RoleComponentPartial")
+                           
+                            
                         </div>
                     </div>
                 </div>
@@ -108,7 +99,7 @@
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="~/tech/index.html">Anasayfa</a></li>
+                            <li><a href="/Homee/Index/">Anasayfa</a></li>
                             <li><a href="/hakkımızda/">Hakkımızda</a></li>
                             <li><a href="/ürünler/">Ürünler</a></li>
                             <li><a href="/iletişim/">İletişim</a></li>
@@ -120,8 +111,7 @@
                         <a href="#" class="search-switch"><img src="~/tech/img/icon/search.png" alt=""></a>
                         <a href="/favoriler/"><img src="~/tech/img/icon/heart.png" alt=""></a>
                         <a href="/karşılaştır/"><img src="~/tech/img/icon/compare.png" alt=""></a>
-                        <a href="/sipariş-sepeti/"><img src="~/tech/img/icon/cart.png" alt=""> <span>0</span></a>
-                        <div class="price">0.00 ₺</div>
+                        @await Component.InvokeAsync("_ShoppingValueComponentPartial")
                     </div>
                 </div>
             </div>
@@ -133,52 +123,50 @@
    @RenderBody()
 
     <!-- Footer Section Begin -->
-    <footer class="footer">
+    <footer class="footer" style="background-color:black;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
                             <a href="#"><img src="~/tech/img/techconnect2.png" alt=""></a>
                         </div>
-                        <p>İş modelimizin merkezinde müşteri memnuniyeti bulunur. Ürün tasarımımız, ihtiyaçlarınıza en iyi şekilde cevap verecek şekilde özel olarak hazırlanmıştır.</p>
-                        <a href="#"><img src="~/tech/img/payment.png" alt=""></a>
+                        <p>Bizim için her şey, müşterilerimizin teknoloji ihtiyaçlarını en iyi şekilde karşılamakla başlar.
+                            Ürünlerimizi tasarlarken, sizin taleplerinizi ve beklentilerinizi ön planda tutuyoruz. İleri teknoloji ve 
+                            yenilikçi çözümler sunarak, yalnızca bir alışveriş değil,
+                            güvene dayalı kalıcı bir ilişki oluşturmayı amaçlıyoruz. Sizin memnuniyetiniz, bizim önceliğimizdir ve bu 
+                            yolculukta sizinle birlikte büyümekten mutluluk duyuyoruz.</p>
+                       <img src="~/iyzico.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="col-lg-3 offset-lg-1 col-md-3 col-sm-6">
+                    <br />
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>SİZİN İÇİN BURADAYIZ</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="/ürünler/">- Birbirinden Güzel Ürünlerimiz</a></li>
+                            <li><a href="/hakkımızda/">- Bizi Tanıyın</a></li>
+                            <li><a href="/iletişim/">- İletişim</a></li>
+                            <li><a href="/sipariş-sepeti/">- Sepetiniz</a></li>
+                            <li><a href="/kayıt-ol/">- Kayıt Ol</a></li>
+                            <li><a href="/giriş-yap/">- Giriş Yap</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
+                    <br />
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
-                        <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
-                            <li><a href="#">Return & Exchanges</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Haber Bülteni</h6>
-                        <div class="footer__newslatter">
-                            <p>Güncel ürünler, indirimler, kampanyalar ve daha fazlası hakkında bilgi almak için bültenimize abone ol!</p>
-                            <form action="#">
-                                <input type="text" placeholder="Emailiniz...">
-                                <button type="submit"><span class="icon_mail_alt"></span></button>
-                            </form>
+                        <h6>Sosyal Medya Hesaplarımız</h6>
+                        <div class="d-flex justify-content-start">
+                            <a class="btn btn-outline-primary btn-square mr-2" href="https://twitter.com/home?lang=tr"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="https://www.linkedin.com/uas/login-submit?_l=tr_TR"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/irem__erturk/"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
+                    <br /><br />
                 </div>
+                
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -206,8 +194,8 @@
         </div>
     </div>
  
-    <!-- Search End -->
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <!-- Js Plugins -->
     <script src="~/tech/js/jquery-3.3.1.min.js"></script>
     <script src="~/tech/js/bootstrap.min.js"></script>
@@ -219,6 +207,21 @@
     <script src="~/tech/js/mixitup.min.js"></script>
     <script src="~/tech/js/owl.carousel.min.js"></script>
     <script src="~/tech/js/main.js"></script>
+
+
+    @*    star rating  *@
+    <script src="~/star2/jquery.min.js"></script>
+    <script src="~/star2/jquery.rateyo.js"></script>
+    <script src="~/star2/jquery.rateyo.min.js"></script>
+    <link href="~/star2/jquery.rateyo.css" rel="stylesheet" />
+    <link href="~/star2/jquery.rateyo.min.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+
+
+
 </body>
 
 </html>

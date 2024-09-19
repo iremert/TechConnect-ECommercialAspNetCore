@@ -1,0 +1,66 @@
+﻿@model TechConnect.DtoUI.CategoryDtos.CreateCategoryDto
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>Kategori</strong>  Ekle
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Kategori Adı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Name" placeholder="Kategori giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Boyut 1</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Size[0]" placeholder="Boyut 1 giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Boyut 2</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Size[1]" placeholder="Boyut 2 giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Boyut 3</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Size[2]" placeholder="Boyut 3 giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Boyut 4</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Size[3]" placeholder="Boyut 4 giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Ekle
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+

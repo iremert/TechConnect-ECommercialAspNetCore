@@ -11,7 +11,6 @@ namespace TechConnect.EL.Concrete
     public class BasketItem
     {
         public string ProductId { get; set; }
-        [BsonIgnore]
         public Product Product { get; set; }
         public int Quantity { get; set; }
    

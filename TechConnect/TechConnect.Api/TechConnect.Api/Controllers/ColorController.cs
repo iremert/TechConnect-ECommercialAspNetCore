@@ -38,14 +38,14 @@ namespace TechConnect.Api.Controllers
             return Ok("Renk kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteColor(string id)
         {
             await _colorService.TDeleteAsync(id);
             return Ok("Renk kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateColor(UpdateColorDto updateColorDto, string id)
         {
             await _colorService.TUpdateAsync(_mapper.Map<Color>(updateColorDto), id);

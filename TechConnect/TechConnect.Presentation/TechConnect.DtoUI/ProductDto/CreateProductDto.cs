@@ -8,6 +8,11 @@ namespace TechConnect.DtoUI.ProductDto
 {
     public class CreateProductDto
     {
+        public CreateProductDto()
+        {
+            TechnicalSpecifications = new Dictionary<string, string>();
+        }
+
         public string ProductName { get; set; }
         public double ProductPrice { get; set; }
         public string ProductImageUrl { get; set; }

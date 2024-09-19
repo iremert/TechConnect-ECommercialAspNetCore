@@ -18,9 +18,6 @@ namespace TechConnect.EL.Concrete
         public string AddressId { get; set; }
         [BsonIgnore]
         public Address Address { get; set; }
-        public string PaymentId { get; set; }
-        [BsonIgnore]
-        public Payment Payment { get; set; }
         public string BasketTotalId{ get; set; }
         [BsonIgnore]
         public BasketTotal BasketTotal { get; set; }

@@ -21,14 +21,9 @@ namespace TechConnect.EL.Concrete
         public string CategoryId { get; set; }
         [BsonIgnore]
         public Category Category { get; set; }
-
         public string ColorId { get; set; }
         [BsonIgnore]
         public Color Color { get; set; }
-
-
-
-
         public string ProductDescription { get; set; }
         public string ProductInformation { get; set; }
         public string MaterialUsed { get; set; }
@@ -42,7 +37,7 @@ namespace TechConnect.EL.Concrete
         public string WarrantyInfo { get; set; }
         public Dictionary<string, string> TechnicalSpecifications { get; set; }
         public bool IsAvailable { get; set; }
-        public bool IsFeatured { get; set; } //girişteki 3 lü yer için
+        public bool IsFeatured { get; set; } //anasayfadaki 3 lü yer için
         public bool IsFavourite { get; set; } 
         public bool IsCompare { get; set; } 
 

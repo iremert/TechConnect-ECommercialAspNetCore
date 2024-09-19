@@ -1,0 +1,60 @@
+﻿@model List<TechConnect.WebUI.Areas.Admin.Models._GetUserRealValue2>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Kullanıcı İşlemleri</h3>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Kullanıcı Adı</th>
+                        <th>Adı</th>
+                        <th>Soyadı</th>
+                        <th>Emaili</th>
+                        <th>Adres Gör</th>
+                        <th>Rol Ata</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+
+                            <td class="desc">@item.UserName</td>
+                            <td class="desc">@item.Name</td>
+                            <td class="desc">@item.Surname</td>
+                            <td class="desc">@item.Email</td>
+                            <td class="desc"><a href="/Admin/User/AddressDetail/@item.Id" class="btn btn-warning">Adrese Git</a></td>
+                            <td class="desc"><a href="/Admin/User/AssignRole/@item.Id" class="btn btn-success">Rol Ata</a></td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/User/DeleteUser/@item.Id" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+    </div>
+</div>
+

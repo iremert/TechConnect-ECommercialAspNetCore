@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
 using TechConnect.DtoUI.ContactDtos;
@@ -8,6 +9,7 @@ using TechConnect.WebUI.Services.Concrete;
 
 namespace TechConnect.WebUI.Controllers
 {
+
     [Route("iletişim")]
     public class ContactController : Controller
     {
@@ -19,8 +21,13 @@ namespace TechConnect.WebUI.Controllers
         }
 
         [Route("")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            if (HttpContext.Session.GetString("AuthToken") == null)
+            {
+                string token = await CreateVisitorToken.GetTokenAsync(_httpClientFactory);
+                HttpContext.Session.SetString("AuthToken", token);
+            }
             return View();
         }
 

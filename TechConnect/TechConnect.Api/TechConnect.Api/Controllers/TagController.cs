@@ -38,14 +38,14 @@ namespace TechConnect.Api.Controllers
             return Ok("Etiket kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTag(string id)
         {
             await _tagService.TDeleteAsync(id);
             return Ok("Etiket kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTag(UpdateTagDto updateTagDto, string id)
         {
             await _tagService.TUpdateAsync(_mapper.Map<Tag>(updateTagDto), id);

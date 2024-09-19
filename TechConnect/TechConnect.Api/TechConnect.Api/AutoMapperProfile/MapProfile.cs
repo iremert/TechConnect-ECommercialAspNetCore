@@ -2,14 +2,19 @@
 
 using AutoMapper;
 using TechConnect.Dto.AboutDtos;
+using TechConnect.Dto.AddressDtos;
+using TechConnect.Dto.BasketTotalDtos;
 using TechConnect.Dto.CategoryDtos;
 using TechConnect.Dto.ColorDtos;
+using TechConnect.Dto.CommentDtos;
 using TechConnect.Dto.CompareDtos;
 using TechConnect.Dto.Contact2Dtos;
 using TechConnect.Dto.ContactDtos;
 using TechConnect.Dto.DiscountDtos;
 using TechConnect.Dto.FavouriteDtos;
+using TechConnect.Dto.OrderingDtos;
 using TechConnect.Dto.ProductDtos;
+using TechConnect.Dto.SliderDtos;
 using TechConnect.Dto.TagDtos;
 using TechConnect.Dto.TestimonialDtos;
 using TechConnect.EL.Concrete;
@@ -79,6 +84,36 @@ namespace TechConnect.WebUI.AutoMapperProfile
             CreateMap<GetByIdDiscountDto, Discount>().ReverseMap();
             CreateMap<UpdateDiscountDto, Discount>().ReverseMap();
             CreateMap<CreateDiscountDto, Discount>().ReverseMap();
+
+
+            CreateMap<ResultBasketTotalDto, BasketTotal>().ReverseMap();
+            CreateMap<GetByIdBasketTotalDto, BasketTotal>().ReverseMap();
+            CreateMap<UpdateBasketTotalDto, BasketTotal>().ReverseMap();
+            CreateMap<CreateBasketTotalDto, BasketTotal>().ReverseMap();
+
+            CreateMap<ResultAddressDto, Address>().ReverseMap();
+            CreateMap<GetByIdAddressDto, Address>().ReverseMap();
+            CreateMap<UpdateAddressDto, Address>().ReverseMap();
+            CreateMap<CreateAddressDto, Address>().ReverseMap();
+
+
+
+            CreateMap<ResultOrderingDto, Ordering>().ReverseMap();
+            CreateMap<GetByIdOrderingDto, Ordering>().ReverseMap();
+            CreateMap<UpdateOrderingDto, Ordering>().ReverseMap();
+            CreateMap<CreateOrderingDto, Ordering>().ReverseMap();
+
+
+            CreateMap<ResultCommentDto, Comment>().ReverseMap();
+            CreateMap<GetByIdCommentDto, Comment>().ReverseMap();
+            CreateMap<UpdateCommentDto, Comment>().ReverseMap();
+            CreateMap<CreateCommentDto, Comment>().ReverseMap();
+
+
+            CreateMap<ResultSliderDto, Slider>().ReverseMap();
+            CreateMap<GetByIdSliderDto, Slider>().ReverseMap();
+            CreateMap<UpdateSliderDto, Slider>().ReverseMap();
+            CreateMap<CreateSliderDto, Slider>().ReverseMap();
         }
     }
 }

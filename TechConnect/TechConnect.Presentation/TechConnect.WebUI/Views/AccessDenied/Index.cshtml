@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erişiminiz Yok</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/login/css/style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login" style="margin-bottom:70px;">
+            <div class="form-content" style="display:flex;">
+
+                <form method="post" style="padding:30px;border-radius:10px; max-width: 800px;width: 100%;justify-content: center; align-items: center;margin-left:155px;">
+                    <h1 style="margin-left:110px;">Erişim Engellendi</h1>
+                    <br />
+
+                    <div style="background-color:lightgrey;border-radius:50px;">
+                        <div style="display:flex;">
+                            <div class="form-link" style="width:510px;align-items:center;margin-left:115px;">
+
+                                <p style="margin-top:15px;margin-left:8px;">Bu sayfayı görmek için izniniz yok.</p>
+                                <p style="margin-top:15px;margin-left:5px;">Lütfen giriş bilgilerinizi kontrol edin ve tekrar deneyin.</p>
+                                <p style="margin-top:15px;margin-left:0px;"><b>Hata Kodu:403 yada 401</b></p>
+
+                                <br />
+                                <p style="margin-top:15px;margin-left:5px;color:red;">&#8505; Kullanıcı girişi yapmadıysanız bazı sayfalara giremezsiniz giriş yapmadıysanız lütfen giriş yapınız.</p>
+                                <br />
+                            </div>
+
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="field button-field" style="display:flex;">
+                        <div class="continue__btn" style="margin-right:200px;margin-left:50px;">
+                            <a href="/Homee/Index/" style="color:black;">Ana Sayfaya Dön</a>
+                        </div>
+                        <a href="/giriş-yap/" style="color:white;" class="primary-btn">GİRİŞ Yap</a>
+
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+
+        </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="~/login/js/script.js"></script>
+</body>
+</html>
+
+

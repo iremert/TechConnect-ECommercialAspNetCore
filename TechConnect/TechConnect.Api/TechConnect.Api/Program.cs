@@ -1,15 +1,27 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using System.Reflection;
+using TechConnect.Api.Hubs;
 using TechConnect.BLL.Abstract;
 using TechConnect.BLL.Concrete;
 using TechConnect.DAL.Abstract;
 using TechConnect.DAL.Concrete;
 using TechConnect.DAL.MongoDbDriver;
+using TechConnect.IdentityServer.Data;
+using TechConnect.IdentityServer.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
+//3d ödeme için
+builder.Services.AddCors(cfr =>
+{
+    cfr.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyHeader().AllowCredentials().AllowAnyMethod().SetIsOriginAllowed(policy=>true);
+    });
+});
+builder.Services.AddSignalR();
 
 
 
@@ -70,6 +82,21 @@ builder.Services.AddScoped<ICompareDal, MongoDbCompareRepository>();
 builder.Services.AddScoped<IDiscountService, DiscountManager>();
 builder.Services.AddScoped<IDiscountDal, MongoDbDiscountRepository>();
 
+builder.Services.AddScoped<IBasketTotalService, BasketTotalManager>();
+builder.Services.AddScoped<IBasketTotalDal, MongoDbBasketTotalRepository>();
+
+builder.Services.AddScoped<IAddressService, AddressManager>();
+builder.Services.AddScoped<IAddressDal, MongoDbAddressRepository>();
+
+builder.Services.AddScoped<IOrderingService, OrderingManager>();
+builder.Services.AddScoped<IOrderingDal, MongoDbOrderingRepository>();
+
+builder.Services.AddScoped<ICommentService, CommentManager>();
+builder.Services.AddScoped<ICommentDal, MongoDbCommentRepository>();
+
+builder.Services.AddScoped<ISliderService, SliderManager>();
+builder.Services.AddScoped<ISliderDal, MongoDbSliderRepository>();
+
 
 
 
@@ -97,9 +124,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<PayHub>("/pay-hub");
 
 app.Run();

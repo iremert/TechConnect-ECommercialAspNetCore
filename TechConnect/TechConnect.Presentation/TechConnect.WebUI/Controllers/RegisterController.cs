@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Security.Principal;
 using System.Text;
@@ -32,12 +33,12 @@ namespace TechConnect.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(CreateRegisterDto createRegisterDto)
         {
-            createRegisterDto.Name = "irem";
-            createRegisterDto.Surname = "ertürk";
-            createRegisterDto.Username = "irem2";
-            createRegisterDto.Password = "Akademi.20";
-            createRegisterDto.Email = "erturkirem.238@gmail.com";
-            createRegisterDto.ConfirmPassword= "Akademi.20";
+        //    createRegisterDto.Name = "aa";
+        //    createRegisterDto.Surname = "aa";
+        //    createRegisterDto.Username = "aaa";
+        //    createRegisterDto.Password = "Akademi.20";
+        //    createRegisterDto.Email = "iremerturk@gmail.com";
+        //    createRegisterDto.ConfirmPassword= "Akademi.20";
 
             if (createRegisterDto.Password == createRegisterDto.ConfirmPassword)
             {
@@ -52,8 +53,22 @@ namespace TechConnect.WebUI.Controllers
                 {
                     return RedirectToAction("", "Giriş-Yap");
                 }
+                else
+                {
+                    var hata=responseMessage.Content.ReadAsStringAsync().Result;
+                    ViewBag.Message = hata;
+                }
+            }
+            else
+            {
+                ViewBag.hata = "Şifreler uyuşmuyor , tekrar deneyin";
             }
             return View();
+
+
+
+           
+            
         }
     }
 }

@@ -1,0 +1,63 @@
+﻿@model List<TechConnect.DtoUI.CommentDtos.ResultCommentDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Yorum İşlemleri</h3>
+        <small style="color:darkred;">*Yorumun içeriğine bakıp yorumları silebilirsin.</small>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Yorum </th>
+                        <th>Yorum Tarihi</th>
+                        <th>Durum</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+                            <td class="desc">@item.CommentReal</td>
+                            <td class="desc">@item.CreatedDate.ToShortDateString()</td>
+                            <td>
+                                @if (item.Status == true)
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Comment/DoPassiveComment/@item.ID" class="btn btn-danger">Pasif Yap</a></span>
+                                }
+                                else
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Comment/DoActiveComment/@item.ID" class="btn btn-success">Aktif Yap</a></span>
+                                }
+                            </td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/Comment/DeleteComment/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+    </div>
+</div>
+

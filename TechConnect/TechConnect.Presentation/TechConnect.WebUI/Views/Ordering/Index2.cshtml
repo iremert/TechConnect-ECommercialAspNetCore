@@ -1,0 +1,102 @@
+﻿@model List<TechConnect.DtoUI.OrderingDtos.ResultOrderingDto>
+@{
+    ViewData["Title"] = "Index2";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Siparişimin Detayı</h4>
+                    <div class="breadcrumb__links">
+                        <a href="./index.html">Anasayfa</a>
+                        <span>Siparişimin Detayı</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shopping Cart Section Begin -->
+<section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shopping__cart__table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ürün</th>
+                                <th>MİKTAR</th>
+                                <th>FİYAT</th>
+
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                @foreach (var item2 in item.BasketTotal.BasketItems)
+                                {
+                                    <tr>
+                                        <td class="product__cart__item" style="min-width:500px;">
+                                            <div class="product__cart__item__pic">
+                                                <img src="@item2.Product.ProductImageUrl" style="height:100px;width:100px;" alt="">
+                                            </div>
+                                            <div class="product__cart__item__text">
+                                                <h6>@item2.Product.ProductName</h6>
+                                                <h5>@item2.Product.ProductPrice</h5>
+                                            </div>
+                                        </td>
+                                        <td class="quantity__item" style="min-width:150px;">
+                                            <div class="quantity">
+                                                <div class="pro-qty-2">
+                                                    <input type="text" value="@item2.Quantity">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__price" style="min-width:150px;">@item2.Product.ProductPrice</td>
+                                       
+                                    </tr>
+                                }
+
+                            }
+
+
+                        </tbody>
+                    </table>
+                    <br /><br /><br /><br />
+                    <table>
+                        <thead>
+
+                            <tr>
+                                <th style="width:400px;">Adres</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+
+                                    <td style="min-width:350px;">@item.Address.RealAddress / @item.Address.City / @item.Address.District / @item.Address.District2 / @item.Address.ZipCode</td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <br /><br />
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Shopping Cart Section End -->

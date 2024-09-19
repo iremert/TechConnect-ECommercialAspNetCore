@@ -1,0 +1,188 @@
+﻿@model TechConnect.DtoUI.ProductDto.CreateProductDto
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>Ürün</strong>  Ekle
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ürün Adı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ProductName" placeholder="Ürün adını giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ürün Fiyatı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ProductPrice" placeholder="Ürün fiyatını giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ürünün Görseli</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ProductImageUrl" placeholder="Ürünün görselinin urlsini giriniz..." class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ürünün Kategorisi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.degerler"></select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ürünün Rengi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <select asp-for="ColorId" class="form-control" asp-items="ViewBag.degerler2"></select>
+                        <span asp-validation-for="ColorId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Ürün Açıklama</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="ProductDescription" id="textarea-input" rows="9" placeholder="Ürünün Açıklaması..." class="form-control"></textarea>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Ürün Bilgisi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="ProductInformation" id="textarea-input" rows="9" placeholder="Ürünün bilgisi..." class="form-control"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Kullanılan Materyal</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="MaterialUsed" placeholder="Üründe kullanılan materyal..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Görsel 1</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ImageUrl1" placeholder="Url giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Görsel 2</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ImageUrl2" placeholder="Url giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Görsel 3</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ImageUrl3" placeholder="Url giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Video </label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="VideoUrl4" placeholder="Url giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Stok Kodu</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ProductImageUrl" placeholder="Stok kodunu giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Marka</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Brand" placeholder="Marka giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Stokta Kaç Tane Var?</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ProductImageUrl" placeholder="Stok sayısı giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Garanti Bilgisi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="WarrantyInfo" placeholder="Garanti bilgisi giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Teknik Özellikler</label>
+                    </div>
+                    <div class="col col-md-9">
+                    @foreach (var spec in Model.TechnicalSpecifications)
+                    {
+                        <br />
+                        <div class="form-group">
+                            <label>@spec.Key</label>
+                                <input type="text" asp-for="TechnicalSpecifications[@spec.Key]" value="@spec.Value" class="form-control" />
+                        </div>
+                    }
+                    </div>
+                </div>
+
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Ekle
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+

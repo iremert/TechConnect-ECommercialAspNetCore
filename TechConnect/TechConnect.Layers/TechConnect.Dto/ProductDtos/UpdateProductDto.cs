@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechConnect.EL.Concrete;
 
 namespace TechConnect.Dto.ProductDtos
 {
@@ -15,7 +16,6 @@ namespace TechConnect.Dto.ProductDtos
         public int Rate { get; set; }
         public string CategoryId { get; set; }
         public string ColorId { get; set; }
-
 
         public string ProductDescription { get; set; }
         public string ProductInformation { get; set; }

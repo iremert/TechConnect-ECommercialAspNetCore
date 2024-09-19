@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using TechConnect.DtoUI.CompareDtos;
 using TechConnect.DtoUI.ProductDto;
+using TechConnect.WebUI.Services.Concrete;
 
 namespace TechConnect.WebUI.Controllers
 {
@@ -21,6 +23,25 @@ namespace TechConnect.WebUI.Controllers
         [Route("")]
         public async Task<IActionResult> Index()
         {
+
+            if (HttpContext.Session.GetString("AuthToken") == null)
+            {
+                string token2 = await CreateVisitorToken.GetTokenAsync(_httpClientFactory);
+                HttpContext.Session.SetString("AuthToken", token2);
+            }
+            var token = HttpContext.Session.GetString("AuthToken");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken = tokenHandler.ReadJwtToken(token);
+            // Payload kısmına erişim
+            var claims = jwtToken.Claims;
+
+            // `scope` claim'ini almak
+            var scopes = claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+            if (!scopes.Contains("UserPermission"))
+            {
+                return Unauthorized();
+            }
+
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("AuthToken"));
 
@@ -41,6 +62,20 @@ namespace TechConnect.WebUI.Controllers
         [Route("karşılaştır-kaldır/{id}")]
         public async Task<IActionResult> DeleteCompare(string id)
         {
+            var token = HttpContext.Session.GetString("AuthToken");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken = tokenHandler.ReadJwtToken(token);
+            // Payload kısmına erişim
+            var claims = jwtToken.Claims;
+
+            // `scope` claim'ini almak
+            var scopes = claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+            if (!scopes.Contains("UserPermission"))
+            {
+                return Unauthorized();
+            }
+
+
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("AuthToken"));
 
@@ -56,6 +91,20 @@ namespace TechConnect.WebUI.Controllers
         [Route("karşılaştır-ekle/{id}")]
         public async Task<IActionResult> AddCompare(string id)
         {
+            var token2 = HttpContext.Session.GetString("AuthToken");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken2 = tokenHandler.ReadJwtToken(token2);
+            // Payload kısmına erişim
+            var claims = jwtToken2.Claims;
+
+            // `scope` claim'ini almak
+            var scopes = claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+            if(!scopes.Contains("UserPermission"))
+            {
+                return Unauthorized();
+            }
+
+
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("AuthToken"));
 

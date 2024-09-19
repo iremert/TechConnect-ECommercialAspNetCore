@@ -1,0 +1,112 @@
+﻿@model TechConnect.DtoUI.AddressDtos.GetByIdAddressDto
+@{
+    ViewData["Title"] = "AddressDetail";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>Adres</strong>  Detay
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+               
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ad</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Name" placeholder="Başlık giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Soyad</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Surname" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Numara</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Phone" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Email</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Email" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">İl</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="City" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">İlçe</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="District" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Mahalle</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="District2" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Adres</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="RealAddress" id="textarea-input" rows="9" placeholder="giriniz..." class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Adres Başlığı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="AddressTitle" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Posta Kodu</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ZipCode" placeholder="giriniz..." class="form-control">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+

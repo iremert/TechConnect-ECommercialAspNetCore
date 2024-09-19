@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj",
         "projectName": "TechConnect.IdentityServer",
-        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\obj\\",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,24 +110,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -132,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,6 +9,7 @@ using TechConnect.EL.Concrete;
 
 namespace TechConnect.Api.Controllers
 {
+    //[Authorize(Policy = "ContactFullPermission")]
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
@@ -22,6 +23,8 @@ namespace TechConnect.Api.Controllers
             _contact2Service = contact2Service;
             _mapper = mapper;
         }
+
+
 
         [HttpGet]
         public async Task<IActionResult> Contact2List()
@@ -39,14 +42,14 @@ namespace TechConnect.Api.Controllers
             return Ok("İletişim kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteContact2(string id)
         {
             await _contact2Service.TDeleteAsync(id);
             return Ok("İletişim kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateContact2(UpdateContact2Dto updateContact2Dto, string id)
         {
             await _contact2Service.TUpdateAsync(_mapper.Map<Contact2>(updateContact2Dto), id);

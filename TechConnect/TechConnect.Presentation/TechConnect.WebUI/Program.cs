@@ -10,9 +10,21 @@ using System.Text;
 using TechConnect.WebUI.Services.Concrete;
 using TechConnect.WebUI.Services.Interfaces;
 using TechConnect.WebUI.Settings;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigins",
+        builder =>
+        {
+            builder.WithOrigins("https://localhost:7237")
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
 
 
 builder.Services.AddDistributedMemoryCache(); // Bellek içi önbellek
@@ -22,6 +34,9 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+
+
+
 
 
 
@@ -48,6 +63,7 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 })
+
 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
 {
     options.LoginPath = "/Giriþ-Yap/";
@@ -58,6 +74,9 @@ builder.Services.AddAuthentication(options =>
     options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
     options.Cookie.Name = "TechConnectJwt";
 });
+
+
+
 
 
 
@@ -78,6 +97,11 @@ builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("Cli
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
 
 
+builder.Services.ConfigureApplicationCookie(options => //çerezleri yapýlandýrdýk
+{
+    options.AccessDeniedPath = new PathString("/erisim-kisiti/");
+    options.LoginPath = new PathString("/erisim-kisiti/");
+});
 
 
 
@@ -96,6 +120,28 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseCors("AllowSpecificOrigins");
+
+
+
+app.UseStatusCodePages(async context =>
+{
+    var response = context.HttpContext.Response;
+    var statusCode = response.StatusCode;
+
+    if (statusCode == 401)
+    {
+        response.Redirect("/erisim-kisiti/");
+    }
+    else if (statusCode == 403)
+    {
+        response.Redirect("/erisim-kisiti/");
+    }
+});
+
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404", "?code={0}");
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
@@ -108,6 +154,13 @@ app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Homee}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+    );
+});
 
 app.Run();

@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Error404";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<link rel="icon" type="image/png" href="~/image2/gezgin3.png">
+	<title>404 Not Found</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="~/error2/css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<div id="notfound" style="margin-left:500px;margin-bottom:100px;margin-top:50px;">
+		<div class="notfound">
+			<div class="notfound-404">
+				<h1>404 ERROR</h1>
+			</div>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<h2>@ViewBag.ErrorMessage</h2>
+			@* <form class="notfound-search">
+			<input type="text" placeholder="Search...">
+			<button type="button">Search</button>
+			</form> *@
+			<br />
+			<div class="continue__btn" style="margin-right:200px;margin-left:50px;">
+				<a href="/Homee/Index/" style="color:white;" class="primary-btn" >Ana Sayfaya Dön</a>
+			</div>
+		</div>
+	</div>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+

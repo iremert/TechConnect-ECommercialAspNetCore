@@ -9,143 +9,383 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechConnect.WebUI
 build_property.RootNamespace = TechConnect.WebUI
-build_property.ProjectDir = C:\Users\Lenovo\OneDrive\Desktop\Yazılım3\TechConnect\TechConnect.Presentation\TechConnect.WebUI\
+build_property.ProjectDir = C:\Users\lenovo\Desktop\TechConnect-ECommercialAspNetCore-main\TechConnect\TechConnect.Presentation\TechConnect.WebUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lenovo\OneDrive\Desktop\Yazılım3\TechConnect\TechConnect.Presentation\TechConnect.WebUI
+build_property.MSBuildProjectDirectory = C:\Users\lenovo\Desktop\TechConnect-ECommercialAspNetCore-main\TechConnect\TechConnect.Presentation\TechConnect.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/About/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/About/AddAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcQWRkQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/About/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcVXBkYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Color/AddColor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcQWRkQ29sb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Color/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Color/UpdateColor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcVXBkYXRlQ29sb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Contact2/AddContact2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdDJcQWRkQ29udGFjdDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Contact2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdDJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Contact2/UpdateContact2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdDJcVXBkYXRlQ29udGFjdDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Contact/OpenMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxPcGVuTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Discount/AddDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzY291bnRcQWRkRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Discount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Discount/UpdateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzY291bnRcVXBkYXRlRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Mail/SendMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpbFxTZW5kTWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Ordering/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Slider/AddSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEFkZFNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Slider/UpdateSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXFVwZGF0ZVNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Tag/AddTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEFkZFRhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Tag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Tag/UpdateTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFVwZGF0ZVRhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Testimonial/AddTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcQWRkVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Testimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/Testimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcVXBkYXRlVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/User/AddressDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBZGRyZXNzRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Compare/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/AccessDenied/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzRGVuaWVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Address/AddAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xBZGRBZGRyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Address/UpdateAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xVcGRhdGVBZGRyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Comment/AddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxBZGRDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Compare/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Contact/AddContact.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Contact/AddContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxBZGRDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Contact/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Favorities/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Discount/ConfirmDiscountCoupon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcQ29uZmlybURpc2NvdW50Q291cG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Favorities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Layout/_Layout.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Homee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Layout/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Layout/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Login/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Login/Index2.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Login/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Ordering/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Ordering/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJpbmdcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/Index2.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/ProductDetail.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/ProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/SearchProduct.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Product/SearchProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2hQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Register/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_BrandListComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Settings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_AdminNameComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTmFtZUNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_BrandListComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0JyYW5kTGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_CategoryListComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_CategoryListComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhdGVnb3J5TGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ChooseColorComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ChooseColorComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nob29zZUNvbG9yQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ChooseSizeComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ChooseSizeComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nob29zZVNpemVDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ColorListComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ColorListComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbG9yTGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_Contact2ComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_CommentListByIdComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbW1lbnRMaXN0QnlJZENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_Contact2ComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbnRhY3QyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_CounterComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_CounterComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvdW50ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SearchComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_FırsatUrunComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0bEsXJzYXRVcnVuQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_MyOrder2ComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX015T3JkZXIyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_MyOrderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX015T3JkZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_RoleComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1JvbGVDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SearchComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NlYXJjaENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SearchInputComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SearchInputComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NlYXJjaElucHV0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SizeListComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ShoppingValueComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Nob3BwaW5nVmFsdWVDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SizeListComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NpemVMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_TagListComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_SliderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NsaWRlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_TagListComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RhZ0xpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_TestimonialComponentPartial/Default.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_TestimonialComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpbW9uaWFsQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Error.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Components/_ÖneÇıkarılanlarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX8OWbmXDh8Sxa2FyxLFsYW5sYXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index2.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index3.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4My5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/_ViewImports.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4NC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/ShoppingCart/Index5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4NS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/_ViewStart.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/OneDrive/Desktop/Yazılım3/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/_Layout.cshtml]
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/İyzicoPayment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLB5emljb1BheW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/İyzicoPayment/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLB5emljb1BheW1lbnRcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/Desktop/TechConnect-ECommercialAspNetCore-main/TechConnect/TechConnect.Presentation/TechConnect.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o3trlvjfj2

@@ -1,0 +1,46 @@
+﻿@model TechConnect.DtoUI.ProductDto.GetByIdProductDto
+
+<!-- Categories Section Begin -->
+<section class="categories spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-5">
+                <div class="categories__hot__deal">
+                    <img src="@Model.ProductImageUrl" alt="">
+                    <div class="hot__deal__sticker">
+                        <span>Satış Fiyatı</span>
+                        <h5>@Model.ProductPrice</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1">
+                <div class="categories__deal__countdown">
+                    <span>Haftanın Fırsatı</span>
+                    <h2>@Model.ProductName</h2>
+                    <div class="categories__deal__countdown__timer" id="countdown">
+                        <div class="cd-item">
+                            <span>3</span>
+                            <p>Gün</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>1</span>
+                            <p>Saat</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>50</span>
+                            <p>Dakika</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>18</span>
+                            <p>Saniye</p>
+                        </div>
+                    </div>
+                    <a href="/ürünler/ürün-detay/@Model.ID" class="primary-btn">ŞİMDİ Satın Al</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories Section End -->

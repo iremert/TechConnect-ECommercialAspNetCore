@@ -1,0 +1,62 @@
+﻿@model List<TechConnect.DtoUI.OrderingDtos.ResultOrderingDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Sipariş İşlemleri</h3>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Kullanıcı Adı Soyadı</th>
+                        <th>Kullanıcı Emaili</th>
+                        <th>Alışveriş Listesi</th>
+                        <th>Sipariş Tarihi</th>
+                        <th>Sipariş Teslim Tarihi</th>
+                        <th>Kargo Durumu</th>
+                        <th>Kargo Durumu Değiştir</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+                            <td class="desc">@item.UserId</td>
+                            <td class="desc">@item.UserId</td>
+                            <td class="desc"><a class="btn btn-danger" href="#">Listeyi Gör</a></td>
+                            <td class="desc">@item.OrderDate.ToShortDateString()</td>
+                            <td class="desc">@item.OrderDeliveryDate.ToShortDateString()</td>
+                            <td class="desc" style="color:darkred;">@item.OrderState</td>
+                            <td class="desc"><a class="btn btn-success" href="#">Değiştir</a></td>
+                            
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/Ordering/DeleteOrdering/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+    </div>
+</div>
+
+

@@ -1,4 +1,4 @@
-﻿
+﻿@model TechConnect.DtoUI.IdentityDtos.RegisterDtos.CreateRegisterDto
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Layout/_Layout.cshtml";
@@ -21,13 +21,13 @@
     <style>
         .vertical-line {
             border-left: 2px solid black; /* Çizginin kalınlığı ve rengi */
-            height: 350px; /* Çizginin yüksekliği */
+            height: 650px; /* Çizginin yüksekliği */
             margin-left: 70px; /* Çizginin sol kenara olan uzaklığı */
         }
     </style>
 
 </head>
-<body>
+@* <body>
     <section class="container forms">
         <div class="form login" style="margin-bottom:70px;">
             <div class="form-content" style="display:flex;">
@@ -38,11 +38,13 @@
                         <input type="email" placeholder="Emailinizi Giriniz.." class="input">
                     </div>
 
-                    <p style="color:red;">*Şifreniz email adresinize gönderilecektir!</p>
+                    <p style="color:red;">*Email adresinize gelen linkten işleme devam edeceksiniz !</p>
 
                     <div class="field button-field">
                         <button>Kayıt Ol</button>
                     </div>
+                    <br />
+                   
                 </form>
                 <div class="vertical-line"></div>
                 <div class="form-link" style="margin-top:10px;margin-left:20px;display:flex;">
@@ -51,10 +53,9 @@
                     <a style="margin-top:255px;position:absolute;margin-left:185px;" href="/giriş-yap/" >Giriş Yap</a>
 
                 </div>
-
-
             </div>
-
+            <br />
+            <div class="alert alert-secondary" style="color:black;padding-left:400px;">@ViewBag.message</div>
         </div>
     </section>
     <!-- JavaScript -->
@@ -62,5 +63,56 @@
 </body>
 </html>
 
+ *@
+
+
+<body>
+    <section class="container forms">
+        <div class="form login" style="margin-bottom:70px;">
+            <div class="form-content" style="display:flex;">
+
+                <form method="post" style="padding:30px;border-radius:10px; max-width: 500px;width: 100%;justify-content: center; align-items: center;margin-left:50px;">
+                    <header>Kayıt Ol</header>
+                    <div class="field input-field">
+                        <input type="text" placeholder="Adınızı Giriniz.." required asp-for="Name" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="text" placeholder="Soyadınızı Giriniz.." requiredasp-for="Surname" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="text" placeholder="Kullanıcı Adınızı Giriniz.." required asp-for="Username" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="email" placeholder="Emailinizi Giriniz.." required asp-for="Email" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Şifrenizi Giriniz.." asp-for="Password" requiredasp-for="Password" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Şifrenizi tekrar Giriniz.." required asp-for="ConfirmPassword" class="input">
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Kayıt Ol</button>
+                    </div>
+                    <br />
+
+                </form>
+                <div class="vertical-line"></div>
+                <div class="form-link" style="margin-top:120px;margin-left:20px;display:flex;">
+                    <img src="~/login/images/user2.png" style="height:150px;width:150px;color:red;margin-left:150px;margin-top:70px; " alt="irem" />
+                    <span style="margin-top:230px;position:absolute;margin-left:160px;">Hesabınız var mı?</span>
+                    <a style="margin-top:255px;position:absolute;margin-left:185px;" href="/giriş-yap/">Giriş Yap</a>
+
+                </div>
+            </div>
+            <br />
+            <div class="alert alert-secondary" style="color:black;padding-left:400px;">@ViewBag.message</div>
+        </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="~/login/js/script.js"></script>
+</body>
+</html>
 
 

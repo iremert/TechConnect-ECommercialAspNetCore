@@ -1,0 +1,75 @@
+﻿@model List<TechConnect.DtoUI.TagDtos.ResultTagDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Etiket İşlemleri</h3>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Etiket Adı</th>
+                        <th>Gidiceği Url</th>
+                        <th>Durum</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+                            <td class="desc">@item.TagName</td>
+                            <td class="desc">@item.Url</td>
+                            
+                            <td>
+                                @if (item.Status == true)
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Tag/DoPassiveTag/@item.ID" class="btn btn-danger">Pasif Yap</a></span>
+                                }
+                                else
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Tag/DoActiveTag/@item.ID" class="btn btn-success">Aktif Yap</a></span>
+                                }
+                            </td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/Tag/UpdateTag/@item.ID" style="margin-right:5px;" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <i class="zmdi zmdi-edit"></i>
+                                    </a>
+                                    <a class="btn btn-dark" href="/Admin/Tag/DeleteTag/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+        <br /><br />
+        <div class="table-data__tool">
+            <div class="table-data__tool-right">
+                <a href="/Admin/Tag/AddTag/" class="au-btn au-btn-icon au-btn--green au-btn--small">
+                    <i class="zmdi zmdi-plus"></i>Etiket Ekle
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

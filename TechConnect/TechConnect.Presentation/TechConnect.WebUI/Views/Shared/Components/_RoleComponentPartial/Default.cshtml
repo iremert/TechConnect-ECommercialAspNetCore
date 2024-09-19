@@ -1,0 +1,38 @@
+﻿
+
+@if(ViewBag.a=="a")
+{
+    <div class="header__top__links">
+        <a href="/giriş-yap/">GİRİŞ Yap</a>
+        <a href="/kayıt-ol/">Kayıt Ol</a>
+    </div>
+}
+else if(ViewBag.a=="b")
+{
+    <div class="header__top__links">
+        <div class="header__top__hover" style="margin-right:15px;">
+            <span>@ViewBag.kullanıcı <i class="arrow_carrot-down"></i></span>
+            <ul>
+                <li><a href="/ayarlar/@ViewBag.kullanıcıid" style="color:black;">Ayarlar</a></li>
+                <li><a href="/siparişlerim/@ViewBag.kullanıcıid" style="color:black;">SİPARİŞLERİM</a></li>
+            </ul>
+        </div>
+
+        <a href="/giriş-yap/çıkış-yap/"> Çıkış Yap</a>
+    </div>
+}
+else
+{
+    <div class="header__top__links">
+        <a href="/Admin/Dashboard/Index/">ADMİN PANELİ</a>
+        <div class="header__top__hover" style="margin-right:15px;">
+            <span>@ViewBag.kullanıcı <i class="arrow_carrot-down"></i></span>
+            <ul>
+                <li><a href="/ayarlar/@ViewBag.kullanıcıid" style="color:black;">Ayarlar</a></li>
+                <li><a href="/siparişlerim/@ViewBag.kullanıcıid" style="color:black;">SİPARİŞLERİM</a></li>
+            </ul>
+        </div>
+
+        <a href="/giriş-yap/çıkış-yap/"> Çıkış Yap</a>
+    </div>
+}

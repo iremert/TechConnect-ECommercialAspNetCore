@@ -1,0 +1,77 @@
+﻿@model List<TechConnect.DtoUI.AboutDtos.ResultAboutDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç=0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Hakkımızda İşlemleri</h3>
+        <small style="color:darkred;">*Bir tane olmasına özen gösterin aksi takdirde hakkımızda kısmı düzgün görünmeyecektir.</small>
+       <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                       <th>#</th>
+                        <th>Ana Görsel</th>
+                        <th>Açıklama 1</th>
+                        <th>Açıklama 2</th>
+                        <th>Açıklama 3</th>
+                        <th>Durum</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+                            <td><img src="@item.ImageUrl"/></td>
+                            <td class="desc">@item.Description1</td>
+                            <td class="desc">@item.Description2</td>
+                            <td class="desc">@item.Description3</td>
+                            <td>
+                                @if(item.Status==true)
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/About/DoPassiveAbout/@item.ID" class="btn btn-danger">Pasif Yap</a></span>
+                                }
+                                else
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/About/DoActiveAbout/@item.ID" class="btn btn-success">Aktif Yap</a></span>
+                                }
+                            </td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/About/UpdateAbout/@item.ID" style="margin-right:5px;" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <i class="zmdi zmdi-edit"></i>
+                                    </a >
+                                    <a class="btn btn-dark" href="/Admin/About/DeleteAbout/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+                  
+                    
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+        <br /><br />
+        <div class="table-data__tool">
+            <div class="table-data__tool-right">
+                <a href="/Admin/About/AddAbout/" class="au-btn au-btn-icon au-btn--green au-btn--small">
+                    <i class="zmdi zmdi-plus"></i>Hakkımızda Ekle
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

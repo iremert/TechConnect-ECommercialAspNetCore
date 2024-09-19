@@ -1,7 +1,21 @@
-﻿@{
+﻿@model List<TechConnect.DtoUI.AddressDtos.ResultAddressDto>
+
+
+
+@{
     ViewData["Title"] = "Index2";
+
     Layout = "~/Views/Layout/_Layout.cshtml";
 }
+
+
+
+<style>
+    .site-btn:hover {
+        background-color: darkred; /* Üzerine gelindiğinde değişen renk */
+    }
+</style>
+
 <!-- Breadcrumb Section Begin -->
 <section class="breadcrumb-option">
     <div class="container">
@@ -25,94 +39,40 @@
 <section class="checkout spad">
     <div class="container">
         <div class="checkout__form">
-            <form action="#">
-                <div class="row">
-                    <div class="col-lg-7 col-md-6">
-                        <div class="row">
+            <div class="row">
+                <div class="col-lg-8 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-9">
                             <h6 class="checkout__title">Adres İşlemlerİ</h6>
                         </div>
-                        
-                        <p><i style="font-size:14px;">&#8505;  Önceden eklediğiniz adresleriniz var ise birini seçebilir yada düzenleyebilirsiniz aksi durumda ekleme yapabilirsiniz ...</i></p>
+                        <div class="col-lg-3">
+                            <a href="/Adres-Ekle/" style="color:red;font-size:14px;" class="checkout__title"><i class="fa fa-plus"></i> Adres Ekle</a>
+                        </div>
+                    </div>
+
+                    <p><i style="font-size:14px;">&#8505;  Önceden eklediğiniz adresleriniz var ise birini seçebilir yada düzenleyebilirsiniz aksi durumda ekleme yapabilirsiniz ...</i></p>
+                    <p><i style="font-size:15px;">*Ödemeye geçmek için adres seçmeniz yeterlidir...</i></p>
+                    @foreach (var item in Model)
+                    {
                         <div class="row" style="display:flex;">
-                            <button type="submit" class="site-btn">Yarımca<span>(Hacı Osman Mahallesi/Körfez/Kocaeli...)</span></button>
-                            <a style="margin:15px;color:red;height:50px;width:50px; "><i>&#9998;</i></a>
+                            @*    <a style="width:50px;" href="/sipariş-sepeti/güvenli-ödeme/@item.ID"><input type="radio" id="address_@item.ID" name="selectedAddress" value="@item.ID" style="margin-right:10px;"></a> *@
+                            <a href="/sipariş-sepeti/güvenli-ödeme/@item.ID" type="submit" style="align-items:center;padding-top:25px;" class="site-btn">@item.AddressTitle<span>( @item.RealAddress/ @item.City / @item.District )</span></a>
+                            <a href="/Adres-Düzenle/@item.ID" style="margin:15px;color:red;height:50px;width:50px; "><i>&#9998;</i></a>
                         </div>
                         <br />
-                        <div class="row" style="display:flex;">
-                            <button type="submit" class="site-btn">İlkadım<span>(Denizevler Caddesi/İlkadım/Samsun ...)</span></button>
-                            <a style="margin:15px;color:red;height:50px;width:50px;"><i>&#9998;</i></a>
-                        </div>
-
-
-                    </div>
-                    <div class="col-lg-5 col-md-12">
-                        <div class="checkout__order">
-                            <h4 class="order__title">Adres Ekle</h4>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p >Adınız<span>*</span></p>
-                                        <input style="height:40px;" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Soyadınız<span>*</span></p>
-                                        <input style="height:40px;" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Emailiniz<span>*</span></p>
-                                        <input style="height:40px;" type="email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Numaranız<span>*</span></p>
-                                        <input style="height:40px;" type="tel">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>İl<span>*</span></p>
-                                        <input style="height:40px;" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>İlçe<span>*</span></p>
-                                        <input style="height:40px;" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="checkout__input">
-                                <p>Mahalle<span>*</span></p>
-                                <input style="height:40px;" type="text">
-                            </div>
-
-                            <div class="checkout__input">
-                                <p>Adres<span>*</span></p>
-                                <input style="height:70px;" type="text" placeholder=".. Mahallesi .. Sokak .. No .. Kat .." class="checkout__input__add">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Adres Başlığı<span>*</span></p>
-                                <input style="height:40px;" type="text">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Posta Kodu<span>*</span></p>
-                                <input style="height:40px;" type="text">
-                            </div>
-                            <button type="submit" class="site-btn">Adres Ekle</span></button>
-                        </div>
+                        <input type="hidden" id="selectedAddressId" name="selectedAddressId" value="" />
+                    }
+                    <br />
+                    <br />
+                    <div class="continue__btn">
+                        <a href="/sipariş-sepeti/">Sepete GERİ Dön</a>
                     </div>
                 </div>
-            </form>
+
+
+                @await Component.InvokeAsync("_MyOrderComponentPartial")
+            </div>
+
         </div>
     </div>
 </section>
-<!-- Checkout Section End -->

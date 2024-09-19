@@ -1,0 +1,43 @@
+﻿@model TechConnect.DtoUI.DiscountDtos.CreateDiscountDto
+@{
+    ViewData["Title"] = "AddDiscount";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>İndirim Teklifi</strong>  Ekle
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">İndirim Adı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" required asp-for="Code" placeholder="İndirim adını  giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">İndirim Oranı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" required  asp-for="Rate" placeholder="İndirim oranı giriniz..." class="form-control">
+                    </div>
+                </div>
+               
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Ekle
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

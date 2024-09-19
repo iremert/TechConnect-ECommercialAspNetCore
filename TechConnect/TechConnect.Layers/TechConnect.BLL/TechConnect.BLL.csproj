@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Container\" />
-    <Folder Include="ValidationRules\" />
+    <Compile Remove="Container\**" />
+    <Compile Remove="ValidationRules\**" />
+    <EmbeddedResource Remove="Container\**" />
+    <EmbeddedResource Remove="ValidationRules\**" />
+    <None Remove="Container\**" />
+    <None Remove="ValidationRules\**" />
   </ItemGroup>
 
   <ItemGroup>

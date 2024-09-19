@@ -37,14 +37,14 @@ namespace TechConnect.Api.Controllers
             return Ok("İndirim kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteDiscount(string id)
         {
             await _discountService.TDeleteAsync(id);
             return Ok("İndirim kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateDiscount(UpdateDiscountDto updateDiscountDto, string id)
         {
             await _discountService.TUpdateAsync(_mapper.Map<Discount>(updateDiscountDto), id);

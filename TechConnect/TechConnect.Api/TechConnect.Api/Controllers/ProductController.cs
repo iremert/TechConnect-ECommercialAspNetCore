@@ -40,14 +40,14 @@ namespace TechConnect.Api.Controllers
             return Ok("Ürünler kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(string id)
         {
             await _productService.TDeleteAsync(id);
             return Ok("Ürünler kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAbout(UpdateProductDto updateProductDto, string id)
         {
             await _productService.TUpdateAsync(_mapper.Map<Product>(updateProductDto), id);

@@ -9,6 +9,7 @@ namespace TechConnect.DtoUI.TagDtos
     public class CreateTagDto
     {
         public string TagName { get; set; }
+        public string Url { get; set; }
         public bool Status { get; set; }
     }
 }

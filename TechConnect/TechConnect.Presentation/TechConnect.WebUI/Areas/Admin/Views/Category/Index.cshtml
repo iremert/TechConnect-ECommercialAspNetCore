@@ -1,0 +1,70 @@
+﻿@model List<TechConnect.DtoUI.CategoryDtos.ResultCategoryDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Kategori İşlemleri</h3>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>KATEGORİ Adı</th>
+                        <th>Boyut 1</th>
+                        <th>Boyut 2</th>
+                        <th>Boyut 3</th>
+                        <th>Boyut 4</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+                            <td class="desc">@item.Name</td>
+                            <td class="desc">@item.Size[0]</td>
+                            <td class="desc">@item.Size[1]</td>
+                            <td class="desc">@item.Size[2]</td>
+                            <td class="desc">@item.Size[3]</td>
+                            
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/Category/UpdateCategory/@item.ID" style="margin-right:5px;" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <i class="zmdi zmdi-edit"></i>
+                                    </a>
+                                    <a class="btn btn-dark" href="/Admin/Category/DeleteCategory/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+        <br /><br />
+        <div class="table-data__tool">
+            <div class="table-data__tool-right">
+                <a href="/Admin/Category/AddCategory/" class="au-btn au-btn-icon au-btn--green au-btn--small">
+                    <i class="zmdi zmdi-plus"></i>Kategori Ekle
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

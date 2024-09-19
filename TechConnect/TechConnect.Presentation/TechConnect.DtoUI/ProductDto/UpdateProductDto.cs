@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using TechConnect.EL.Concrete;
 
 namespace TechConnect.DtoUI.ProductDto
 {

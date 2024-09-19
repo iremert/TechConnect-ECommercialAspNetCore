@@ -1,0 +1,82 @@
+﻿@model TechConnect.WebUI.Models._SettingsUser
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Ayarlar</h4>
+                    <div class="breadcrumb__links">
+                        <a href="/Homee/Index/">Anasayfa</a>
+                        <span>Ayarlar</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+        <div class="checkout__form">
+            <form method="post" asp-action="Index" asp-controller="Settings">
+                <div class="row">
+                    <input type="hidden" asp-for="UserId"/>
+                    <div class="col-lg-12 col-md-6">
+                        <h6 class="checkout__title">Ayarları Düzenle</h6>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Adınız<span>*</span></p>
+                                    <input asp-for="Name" required type="text">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Soyadınız<span>*</span></p>
+                                    <input asp-for="Surname" required type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Kullanıcı Adınız<span>*</span></p>
+                                    <input asp-for="Username" required type="text">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Emailiniz<span>*</span></p>
+                                    <input asp-for="Email" required type="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Şifre<span>*</span></p>
+                            <input asp-for="Password" required type="password">
+                        </div>
+                        <div class="checkout__input">
+                            <p>Şifre Tekrarı<span>*</span></p>
+                            <input asp-for="ConfirmPassword" required type="password">
+                            <p style="color:red">*@ViewBag.cevap</p>
+                        </div>
+                       
+
+                        <button type="submit" style="width:500px;margin-left:300px;" class="site-btn">Ayarları Güncelle</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Checkout Section End -->

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver.Core.WireProtocol.Messages;
 using Newtonsoft.Json;
@@ -7,6 +8,7 @@ using System.Security.Claims;
 using System.Text;
 using TechConnect.DtoUI.FavouriteDtos;
 using TechConnect.DtoUI.ProductDto;
+using TechConnect.WebUI.Services.Concrete;
 
 namespace TechConnect.WebUI.Controllers
 {
@@ -22,9 +24,40 @@ namespace TechConnect.WebUI.Controllers
             _contextAccessor = httpContextAccessor;
         }
 
+        //private JwtSecurityToken DecodeToken(string token)
+        //{
+        //    var handler = new JwtSecurityTokenHandler();
+        //    return handler.ReadJwtToken(token);
+        //}
+
+        //private bool UserHasScope(string token, string requiredScope)
+        //{
+        //    var jwtToken = DecodeToken(token);
+        //    var scopes = jwtToken.Claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+        //    return scopes.Contains(requiredScope);
+        //}
+
         [Route("")]
         public async Task<IActionResult> Index()
         {
+            if (HttpContext.Session.GetString("AuthToken") == null)
+            {
+                string token2 = await CreateVisitorToken.GetTokenAsync(_httpClientFactory);
+                HttpContext.Session.SetString("AuthToken", token2);
+            }
+            var token = HttpContext.Session.GetString("AuthToken");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken = tokenHandler.ReadJwtToken(token);
+            // Payload kısmına erişim
+            var claims = jwtToken.Claims;
+
+            // `scope` claim'ini almak
+            var scopes = claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+            if(!scopes.Contains("UserPermission"))
+            {
+                return Unauthorized();
+            }
+
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("AuthToken"));
 
@@ -44,6 +77,20 @@ namespace TechConnect.WebUI.Controllers
         [Route("favori-kaldır/{id}")]
         public async Task<IActionResult> DeleteFavourite(string id)
         {
+            var token = HttpContext.Session.GetString("AuthToken");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken = tokenHandler.ReadJwtToken(token);
+            // Payload kısmına erişim
+            var claims = jwtToken.Claims;
+
+            // `scope` claim'ini almak
+            var scopes = claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+            if (!scopes.Contains("UserPermission"))
+            {
+                return Unauthorized();
+            }
+
+
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("AuthToken"));
 
@@ -61,6 +108,20 @@ namespace TechConnect.WebUI.Controllers
         [Route("favori-ekle/{id}")]
         public async Task<IActionResult> AddFavourite(string id)
         {
+
+            var token2 = HttpContext.Session.GetString("AuthToken");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken2 = tokenHandler.ReadJwtToken(token2);
+            // Payload kısmına erişim
+            var claims = jwtToken2.Claims;
+
+            // `scope` claim'ini almak
+            var scopes = claims.Where(c => c.Type == "scope").Select(c => c.Value).ToList();
+            if (!scopes.Contains("UserPermission"))
+            {
+                return Unauthorized();
+            }
+
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("AuthToken"));
 

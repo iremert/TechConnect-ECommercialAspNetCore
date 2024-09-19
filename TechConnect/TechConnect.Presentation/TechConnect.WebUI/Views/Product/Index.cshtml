@@ -1,8 +1,11 @@
 ﻿@model List<TechConnect.DtoUI.ProductDto.ResultProductDto>
 
 @{
+
     ViewData["Title"] = "Index";
     Layout = "~/Views/Layout/_Layout.cshtml";
+
+    int id = 0;
 }
 <!-- Breadcrumb Section Begin -->
 <section class="breadcrumb-option">
@@ -87,6 +90,8 @@
                 <div class="row">
                     @foreach (var item in Model)
                     {
+
+                        id++;
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" onclick="window.location.href='/ürünler/ürün-detay/@item.ID';" data-setbg="@item.ProductImageUrl">
@@ -121,22 +126,52 @@
 
                                 <div class="product__item__text">
                                     <h6>@item.ProductName</h6>
-                                    <a href="#" class="add-cart">+ Sepete Ekle</a>
+                                    <a href="/sipariş-sepeti/sepete-ekle/@item.ID" class="add-cart">+ Sepete Ekle</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                                        <div style="height:10px;width:10px;" id="@("puan"+id)">
+                                        </div>
                                     </div>
                                     <h5>@item.ProductPrice ₺</h5>
 
                                 </div>
                             </div>
                         </div>
+
+
+                        <!-- Shop Details Section End -->
+                        <!-- Comment List End -->
+                        @*    star rating  *@
+                        <script src="~/star2/jquery.min.js"></script>
+                        <script src="~/star2/jquery.rateyo.js"></script>
+                        <script src="~/star2/jquery.rateyo.min.js"></script>
+                        <link href="~/star2/jquery.rateyo.css" rel="stylesheet" />
+                        <link href="~/star2/jquery.rateyo.min.css" rel="stylesheet" />
+                        <!-- Latest compiled and minified CSS -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+                        <!-- Latest compiled and minified JavaScript -->
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+
+                        <script>
+
+                            $(document).ready(function () {
+
+                                $('#@("puan"+id)').rateYo({
+
+                                    rating: @item.Rate,
+                                    readonly: true,
+                                    starWidth: "12px",
+                                    multiColor: {
+
+                                        "startColor": "#FF0000", //RED
+                                        "endColor": "#00FF00"  //GREEN
+                                    }
+                                });
+                            });
+
+                        </script>
                     }
                 </div>
-                <div class="row">
+               @*<div class="row">
                     <div class="col-lg-12">
                         <div class="product__pagination">
                             <a class="active" href="#">1</a>
@@ -146,7 +181,7 @@
                             <a href="#">21</a>
                         </div>
                     </div>
-                </div>
+                </div> *@
             </div>
         </div>
     </div>

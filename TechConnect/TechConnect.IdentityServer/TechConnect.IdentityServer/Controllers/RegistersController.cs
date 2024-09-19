@@ -22,24 +22,33 @@ namespace TechConnect.IdentityServer.Controllers
         [HttpPost]
         public async Task<IActionResult> UserRegister(UserRegisterDto userRegisterDto)
         {
-            
 
-            var values = new ApplicationUser()
+            var value = await _userManager.FindByEmailAsync(userRegisterDto.Email);
+            if (value == null)
             {
-                UserName = userRegisterDto.UserName,
-                Email = userRegisterDto.Email,
-                Name = userRegisterDto.Name,
-                Surname = userRegisterDto.Surname,
-            };
-            var result = await _userManager.CreateAsync(values, userRegisterDto.Password);
+                var values = new ApplicationUser()
+                {
+                   
+                    UserName = userRegisterDto.UserName,
+                    Email = userRegisterDto.Email,
+                    Name = userRegisterDto.Name,
+                    Surname = userRegisterDto.Surname,
+                };
+                var result = await _userManager.CreateAsync(values, userRegisterDto.Password);
 
-            if (result.Succeeded)
-            {
-                return Ok("Kullanıcı başarıyla eklendi.");
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(values, "User");
+                    return Ok("Kullanıcı başarıyla eklendi.");
+                }
+                else
+                {
+                    return BadRequest("Bir hata oluştu tekrar deneyiniz.");
+                }
             }
             else
             {
-                return Ok("Bir hata oluştu tekrar deneyiniz.");
+                return BadRequest("Bu mail önceden kullanılmış, lütfen yeniden deneyin.");
             }
         }
     }

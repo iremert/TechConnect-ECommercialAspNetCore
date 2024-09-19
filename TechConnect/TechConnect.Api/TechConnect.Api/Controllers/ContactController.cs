@@ -38,14 +38,14 @@ namespace TechConnect.Api.Controllers
             return Ok("İletişim kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteContact(string id)
         {
             await _contactService.TDeleteAsync(id);
             return Ok("İletişim kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateContact(UpdateContactDto updateContactDto, string id)
         {
             await _contactService.TUpdateAsync(_mapper.Map<Contact>(updateContactDto), id);

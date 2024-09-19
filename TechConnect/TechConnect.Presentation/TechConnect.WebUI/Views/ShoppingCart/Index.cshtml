@@ -1,4 +1,4 @@
-﻿
+﻿@model TechConnect.DtoUI.BasketTotalDtos.ResultBasketTotalDto
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Layout/_Layout.cshtml";
@@ -21,7 +21,6 @@
     </div>
 </section>
 <!-- Breadcrumb Section End -->
-
 <!-- Shopping Cart Section Begin -->
 <section class="shopping-cart spad">
     <div class="container">
@@ -38,29 +37,34 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="~/tech/img/shopping-cart/cart-1.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>T-shirt Contrast Pocket</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty-2">
-                                            <input type="text" value="1">
+                            @foreach (var item in Model.BasketItems)
+                            {
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="@item.Product.ProductImageUrl" style="height:100px;width:100px;" alt="">
                                         </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 30.00</td>
-                                <td class="cart__close"><i class="fa fa-close"></i></td>
-                            </tr>
+                                        <div class="product__cart__item__text">
+                                            <h6>@item.Product.ProductName</h6>
+                                            <h5>@item.Product.ProductPrice</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">
+                                        <div class="quantity">
+                                            <div class="pro-qty-2">
+                                                <input type="text" value="@item.Quantity">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__price">@item.Product.ProductPrice</td>
+                                    <td class="cart__close"><a href="/sipariş-sepeti/sepetten-çıkar/@item.ProductId"><i class="fa fa-close"></i></a></td>
+                                </tr>
+                            }
+
                         </tbody>
                     </table>
                 </div>
+                <br /><br />
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="continue__btn">
@@ -70,31 +74,15 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="cart__discount">
-                    <h6>İNDİRİM Kuponu</h6>
-                    <form action="#">
-                        <input type="text" placeholder="Kupon Kodu">
-                        <button type="submit">Uygula</button>
-                    </form>
-                </div>
+                @await Html.PartialAsync("~/Views/Discount/ConfirmDiscountCoupon.cshtml")
                 <div class="cart__total">
                     <h6>Toplam FİYAT</h6>
                     <ul>
-                        <li>Subtotal <span>$ 169.50</span></li>
-                        <li>Total <span>$ 169.50</span></li>
+                        <li>Toplam Fiyat <span>@Model.TotalPrice ₺</span></li>
+                        <li>İndirim Oranı <span> %@ViewBag.discountrate </span></li>
+                        <li>Kargo Ücreti <span> 100 ₺ </span></li>
+                        <li>İndirimli Fiyat<span>@ViewBag.totalprice ₺</span></li>
                     </ul>
-
-                   <hr />
-                    <div class="checkout__input__checkbox">
-                        <label for="acc">
-                            Giriş Yapmadın mı?
-                            <input type="checkbox" id="acc">
-                            <span class="checkmark"></span>
-                        </label>
-                        <p>
-                            Bir hesabınız yoksa lütfen bir hesap oluşturun,başka bir hesaba geçmek istiyorsanız geçiniz, hesabınız var ve giriş yapmadıysanız lütfen giriş yapınız !
-                        </p>
-                    </div>
 
 
                     <a href="/sipariş-sepeti/adres-işlemleri/" class="primary-btn">Sepetİ Onayla</a>

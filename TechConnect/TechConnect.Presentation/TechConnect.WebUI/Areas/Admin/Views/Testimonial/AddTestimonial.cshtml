@@ -1,0 +1,70 @@
+﻿@model TechConnect.DtoUI.TestimonialDtos.CreateTestimonialDto
+@{
+    ViewData["Title"] = "AddTestimonial";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>Hakkımızda Söz</strong>  Ekle
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Söz</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="Quote" id="textarea-input" rows="9" placeholder="Söz..." class="form-control"></textarea>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Sözün Sahibi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="TestimonialName" placeholder="Sahibini giriniz..." class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Sözün Sahibinin Mesleği</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="TestimonialJob" placeholder="Meslek giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Sözün Sahibinin Görseli Url</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="TestimonialImageUrl" placeholder="Url yi giriniz..." class="form-control">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Ana Görsel Url</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="TestimonialImageUrl2" placeholder="Url yi giriniz..." class="form-control">
+                    </div>
+                </div>
+               
+                
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Ekle
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+

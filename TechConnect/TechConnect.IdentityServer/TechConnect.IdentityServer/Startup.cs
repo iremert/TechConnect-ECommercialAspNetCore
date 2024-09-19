@@ -13,6 +13,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using IdentityServer4.Services;
+using System.Threading.Tasks;
+using System;
+using TechConnect.IdentityServer.Services;
 
 namespace TechConnect.IdentityServer
 {
@@ -29,7 +32,7 @@ namespace TechConnect.IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-
+           
 
             services.AddLocalApiAuthentication(); //mikroservisleri korumak için
             services.AddControllersWithViews();
@@ -40,6 +43,8 @@ namespace TechConnect.IdentityServer
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+           
 
             var builder = services.AddIdentityServer(options =>
             {
@@ -66,8 +71,14 @@ namespace TechConnect.IdentityServer
                 });
         }
 
-        public void Configure(IApplicationBuilder app)
+        public void Configure(IApplicationBuilder app,IServiceScopeFactory serviceScopeFactory)
         {
+            using (var scope = serviceScopeFactory.CreateScope())
+            {
+                var serviceProvider = scope.ServiceProvider;
+                CreateRoles(serviceProvider).Wait();
+            }
+
             if (Environment.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -84,6 +95,12 @@ namespace TechConnect.IdentityServer
             {
                 endpoints.MapDefaultControllerRoute();
             });
+        }
+
+        private async Task CreateRoles(IServiceProvider serviceProvider)
+        {
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            await RoleSeeder.SeedRolesAsync(roleManager);
         }
     }
 }

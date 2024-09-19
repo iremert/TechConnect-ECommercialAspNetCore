@@ -43,7 +43,7 @@ namespace TechConnect.Api.Controllers
             return Ok("Karşılaştırma kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCompare(UpdateCompareDto updateCompareDto, string id)
         {
             await _compareService.TUpdateAsync(_mapper.Map<Compare>(updateCompareDto), id);

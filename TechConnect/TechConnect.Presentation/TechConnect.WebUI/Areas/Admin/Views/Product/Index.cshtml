@@ -1,0 +1,93 @@
+﻿@model List<TechConnect.DtoUI.ProductDto.ResultProductDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Ürün İşlemleri</h3>
+        <small style="color:darkred;">*3 tane ana sayfada olsun mu? olmasına özen gösterin aksi takdirde ana sayfa kısmı düzgün görünmeyecektir.</small>
+        <br />
+        <small style="color:darkred;">*1 tane haftanın fırsatı  olmasına özen gösterin aksi takdirde ana sayfa kısmı düzgün görünmeyecektir.</small>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Ürün Adı</th>
+                        <th>Ürün Fiyatı</th>
+                        <th>Ürün Ana Görsel Url</th>
+                        <th>Marka</th>
+                        <th>Haftanın Fırsatı Olsun mu?</th>
+                        <th>Ana Sayfada olsun mu?</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                           
+                            <td style="color:darkred;">@sayaç</td>
+                            <td class="desc">@item.ProductName</td>
+                            <td class="desc">@item.ProductPrice</td>
+                            <td><img style="height:60px;width:60px;" src="@item.ProductImageUrl" /></td>
+                            <td class="desc">@item.Brand</td>
+                            <td>
+                                @if (item.IsAvailable == true)
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Product/DoPassiveAvailable/@item.ID" class="btn btn-danger">Pasif Yap</a></span>
+                                }
+                                else
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Product/DoActiveAvailable/@item.ID" class="btn btn-success">Aktif Yap</a></span>
+                                }
+                            </td>
+                            <td>
+                                @if (item.IsFeatured == true)
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Product/DoPassiveFeatured/@item.ID" class="btn btn-danger">Pasif Yap</a></span>
+                                }
+                                else
+                                {
+                                    <span style="height:200px;" class="status--process"><a href="/Admin/Product/DoActiveFeatured/@item.ID" class="btn btn-success">Aktif Yap</a></span>
+                                }
+                            </td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/Product/UpdateProduct/@item.ID" style="margin-right:5px;" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <i class="zmdi zmdi-edit"></i>
+                                    </a>
+                                    <a class="btn btn-dark" href="/Admin/Product/DeleteProduct/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+        <br /><br />
+        <div class="table-data__tool">
+            <div class="table-data__tool-right">
+                <a href="/Admin/Product/AddProduct/" class="au-btn au-btn-icon au-btn--green au-btn--small">
+                    <i class="zmdi zmdi-plus"></i>Ürün Ekle
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

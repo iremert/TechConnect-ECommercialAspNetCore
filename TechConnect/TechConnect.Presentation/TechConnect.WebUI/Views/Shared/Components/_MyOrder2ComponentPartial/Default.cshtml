@@ -1,0 +1,24 @@
+﻿@model TechConnect.DtoUI.BasketTotalDtos.GetByIdBasketTotalDto
+
+@{
+    var deger = 0;
+}
+
+<div class="col-lg-4 col-md-6">
+    <div class="checkout__order">
+        <h4 class="order__title">SİPARİŞLERİNİZ</h4>
+        <div class="checkout__order__products">Ürün <span>Fiyat</span></div>
+        <ul class="checkout__total__products">
+            @foreach (var item in Model.BasketItems)
+            {
+                deger++;
+                <li style="font-size:12px;">@deger) @item.Product.ProductName (@item.Quantity) <span>@item.Product.ProductPrice ₺</span></li>
+            }
+
+        </ul>
+        <ul class="checkout__total__all">
+            <li>Ödenecek Tutar <span>@ViewBag.totalpricee ₺</span></li>
+        </ul>
+    </div>
+
+</div>

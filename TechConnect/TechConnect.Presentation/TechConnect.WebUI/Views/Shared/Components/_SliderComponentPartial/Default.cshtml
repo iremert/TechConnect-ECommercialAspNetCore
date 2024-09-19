@@ -1,0 +1,34 @@
+﻿@model List<TechConnect.DtoUI.SliderDtos.ResultSliderDto>
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    @foreach(var item in Model)
+    {
+        <div class="hero__slider owl-carousel">
+            <div class="hero__items set-bg" data-setbg="@item.ImageUrl">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-7 col-md-8">
+                            <div class="hero__text">
+                                <h6>TEKNOLOJİ KOLEKSİYONU</h6>
+                                <h2>@item.Title</h2>
+                                <p>
+                                    @item.Description
+                                </p>
+                                <a href="/ürünler/" class="primary-btn">ŞİMDİ SATIN AL <span class="arrow_right"></span></a>
+                                <div class="hero__social">
+                                    <a href="https://twitter.com/home?lang=tr"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                                    <a href="https://www.linkedin.com/uas/login-submit?_l=tr_TR"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/irem__erturk/"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    }
+</section>
+<!-- Hero Section End -->

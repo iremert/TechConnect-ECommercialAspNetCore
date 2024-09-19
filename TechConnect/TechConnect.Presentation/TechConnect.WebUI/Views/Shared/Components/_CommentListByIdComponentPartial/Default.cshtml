@@ -1,0 +1,63 @@
+﻿@model List<TechConnect.DtoUI.CommentDtos.ResultCommentDto>
+@{
+    int id=0;
+}
+
+    <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">@ViewBag.v2 Yorum</h4>
+    @foreach (var item in Model)
+    {
+        {
+            id++;
+        }
+
+        <div class="media mb-4">
+            <img src="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;height:45px;">
+
+            <div class="media-body">
+                <h6><span style="color:darkred;">@item.UserNameSurname</span> <small><i>@(((DateTime)item.CreatedDate).ToString("dd-MMM-yyyy"))</i></small></h6>
+                <div style="height:10px;width:10px;" id="@("puan"+id)">
+                </div>
+                <br>
+                <p>
+                    @item.CommentReal
+                </p>
+
+            </div>
+        </div>
+        <div>
+            <!-- Comment List End -->
+            @*    star rating  *@
+            <script src="~/star2/jquery.min.js"></script>
+            <script src="~/star2/jquery.rateyo.js"></script>
+            <script src="~/star2/jquery.rateyo.min.js"></script>
+            <link href="~/star2/jquery.rateyo.css" rel="stylesheet" />
+            <link href="~/star2/jquery.rateyo.min.css" rel="stylesheet" />
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+
+            <script>
+
+                $(document).ready(function () {
+
+                    $('#@("puan" + id)').rateYo({
+
+                        rating: @item.Rating,
+                        readonly: true,
+                        starWidth: "18px",
+                        multiColor: {
+
+                            "startColor": "#FF0000", //RED
+                            "endColor": "#00FF00"  //GREEN
+                        }
+                    });
+                });
+
+            </script>
+        </div>
+        <br />
+
+
+    }
+

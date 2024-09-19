@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechConnect.EL
-build_property.ProjectDir = C:\Users\Lenovo\OneDrive\Desktop\Yazılım3\TechConnect\TechConnect.Layers\TechConnect.EL\
+build_property.ProjectDir = C:\Users\lenovo\Desktop\TechConnect-ECommercialAspNetCore-main\TechConnect\TechConnect.Layers\TechConnect.EL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

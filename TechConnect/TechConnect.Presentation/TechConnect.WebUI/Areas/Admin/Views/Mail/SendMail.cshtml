@@ -1,0 +1,58 @@
+﻿@model TechConnect.WebUI.Areas.Admin.Models.MailRequest
+@{
+    ViewData["Title"] = "SendMail";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>Mail</strong>  Gönder
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Alıcı Mail Adresi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input"  required asp-for="ReceiverMail" placeholder="Alıcı mail adresi giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Gönderici Mail Adresi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" required asp-for="SenderMail" placeholder="Alıcı mail adresi giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Konu Başlığı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" required asp-for="Subject" placeholder="Başlığı giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Mesaj İçeriği</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="Body" id="textarea-input" required rows="9" placeholder="Mesaj içeriği giriniz..." class="form-control"></textarea>
+                    </div>
+                </div>
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Gönder
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

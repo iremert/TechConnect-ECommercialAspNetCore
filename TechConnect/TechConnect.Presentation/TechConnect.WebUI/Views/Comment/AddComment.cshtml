@@ -1,0 +1,76 @@
+﻿<h4>Yorum Yap</h4>
+<form method="post" asp-action="AddComment" asp-controller="Comment">
+    <div class="row">
+        <div class="col-lg-12 col-md-4">
+            <p><span style="font-weight:bold;font-size:20px;"> Kullanıcı:</span><span style="font-size:18px;"> @ViewBag.usernameforcomment</span> </p>
+            <input type="hidden" name="ProductId" value="@ViewBag.productid" required />
+        </div>
+        @if (ViewBag.usernameforcomment != " Giriş Yapınız...")
+        {
+            <div class="col-lg-12 col-md-4">
+                
+                <p><span style="font-weight:bold;font-size:20px;">Değerlendir:</span></p>
+                <div id="PuanVer">
+                </div>
+                <small>*Değerlendirme yapmanızı rica ediyoruz,yapmadığınız takdirde değerlendirmeniz 0 sayılacaktır!</small>
+                <input type="hidden" class="rating" name="Rating">
+                <br>
+                <br>
+            </div>
+            
+
+
+            <div class="col-lg-12 text-center">
+                <textarea name="CommentReal" required placeholder="Yorumunuz"></textarea>
+                <button type="submit" class="site-btn">Yorum Yap</button>
+            </div>
+        }
+        else
+        {
+            <br /><br /><br /><br /><br />
+            <div class="col-lg-12 text-center">
+                <p style="color:red;font-size:30px;">Lütfen önce giriş yapınız, giriş yapmadan yorum yapamazsınız !</p>
+            </div>
+        }
+
+    </div>
+</form>
+
+
+@*    star rating  *@
+<script src="~/star2/jquery.min.js"></script>
+<script src="~/star2/jquery.rateyo.js"></script>
+<script src="~/star2/jquery.rateyo.min.js"></script>
+<link href="~/star2/jquery.rateyo.css" rel="stylesheet" />
+<link href="~/star2/jquery.rateyo.min.css" rel="stylesheet" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $("#PuanVer").rateYo({
+
+            rating: 0,
+            maxValue: 5,
+            numStars: 5,
+            fullStar: true,
+
+            multiColor: {
+
+                "startColor": "#FF0000", //RED
+                "endColor": "#00FF00"  //GREEN
+            }
+        });
+        $("#PuanVer").on("click", function () {
+            var rating = $("#PuanVer").rateYo("rating");
+            console.log("Rating:", rating);
+            $('.rating').val(rating);
+        });
+    });
+
+</script>

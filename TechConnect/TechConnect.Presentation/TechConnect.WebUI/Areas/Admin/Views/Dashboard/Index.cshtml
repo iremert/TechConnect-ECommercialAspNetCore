@@ -1,0 +1,285 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<!-- MAIN CONTENT-->
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="overview-wrap">
+                        <h2 class="title-1">İstatistikler</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-t-25">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c1">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.favori</h2>
+                                    <span>Favoride Kaç Ürün var?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c2">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.compare</h2>
+                                    <span>Karşılaştırmada Kaç Ürün Var?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c3">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.order</h2>
+                                    <span>Kaç sipariş alındı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c4">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-laptop"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.category</h2>
+                                    <span>Kaç kategori var?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c1">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.contact</h2>
+                                    <span>Toplam mesaj sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c2">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.users</h2>
+                                    <span>Toplam kullanıcı sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c3">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-mobile"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.product</h2>
+                                    <span>Toplam ürün sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c4">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa fa-money"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.price ₺</h2>
+                                    <span>Toplam kazanılan para?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c1">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.bekleniyor</h2>
+                                    <span>Kargoda bekleyen sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c2">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.tamamlandı</h2>
+                                    <span>Kargoda tamamlandı sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c3">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.paketlendi</h2>
+                                    <span>Kargoda paketlendi sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c4">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.kargolandı</h2>
+                                    <span>Kargoda kargolandı sayısı?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-sm-6 col-lg-3">
+                   
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c2">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="zmdi zmdi-shopping-cart"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.week ₺</h2>
+                                    <span>Bu hafta toplam kazanılan para?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="overview-item overview-item--c3">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="fa-solid fa-wallet"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.today ₺</h2>
+                                    <span>Bugun toplam kazanılan para?</span>
+                                </div>
+                            </div>
+                            <div class="overview-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                   
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MAIN CONTENT-->

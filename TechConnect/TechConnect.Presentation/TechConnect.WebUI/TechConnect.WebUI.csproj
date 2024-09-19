@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.65" />
     <PackageReference Include="IdentityModel" Version="6.0.0" />
+    <PackageReference Include="MailKit" Version="4.7.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.23" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.23" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.17" />
+    <PackageReference Include="MimeKit" Version="4.7.1" />
     <PackageReference Include="MongoDB.Bson" Version="2.28.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
   </ItemGroup>
@@ -20,6 +24,10 @@
     <ProjectReference Include="..\..\TechConnect.Layers\TechConnect.DAL\TechConnect.DAL.csproj" />
     <ProjectReference Include="..\..\TechConnect.Layers\TechConnect.EL\TechConnect.EL.csproj" />
     <ProjectReference Include="..\TechConnect.DtoUI\TechConnect.DtoUI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
   </ItemGroup>
 
 </Project>

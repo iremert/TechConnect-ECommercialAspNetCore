@@ -45,7 +45,7 @@ namespace TechConnect.Api.Controllers
             return Ok("Favoriler kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateFavourite(UpdateFavouriteDto updateFavouriteDto, string id)
         {
             await _favouriteService.TUpdateAsync(_mapper.Map<Favourite>(updateFavouriteDto), id);

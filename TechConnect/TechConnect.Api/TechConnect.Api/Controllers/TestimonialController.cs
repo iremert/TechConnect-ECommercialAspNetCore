@@ -38,14 +38,14 @@ namespace TechConnect.Api.Controllers
             return Ok("Alıntı kısmı başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTestimonial(string id)
         {
             await _testimonialService.TDeleteAsync(id);
             return Ok("Alıntı kısmı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAbout(UpdateTestimonialDto updateTestimonialDto, string id)
         {
             await _testimonialService.TUpdateAsync(_mapper.Map<Testimonial>(updateTestimonialDto), id);

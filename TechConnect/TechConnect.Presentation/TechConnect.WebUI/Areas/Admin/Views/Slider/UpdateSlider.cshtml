@@ -1,0 +1,49 @@
+﻿@model TechConnect.DtoUI.SliderDtos.GetByIdSliderDto
+
+@{
+    ViewData["Title"] = "UpdateSlider";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>Slider</strong>  Güncelle
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+                <input asp-for="ID" type="hidden"/>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Başlık</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Title" placeholder="Başlık giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Açıklama</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="Description" id="textarea-input" rows="9" placeholder="Açıklama giriniz..." class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Görsel Urlsi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="ImageUrl" placeholder="Görsel urlsi giriniz..." class="form-control">
+                    </div>
+                </div>
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Güncelle
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+

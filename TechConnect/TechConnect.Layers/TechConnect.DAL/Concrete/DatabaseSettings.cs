@@ -27,6 +27,11 @@ namespace TechConnect.DAL.Concrete
                 { "Compare", "CompareCollectionName" },
                 { "Favourite", "FavouriteCollectionName" },
                 { "Discount", "DiscountCollectionName" },
+                { "BasketTotal", "BasketTotalCollectionName" },
+                { "Address", "AddressCollectionName" },
+                { "Ordering", "OrderingCollectionName" },
+                { "Comment", "CommentCollectionName" },
+                { "Slider", "SliderCollectionName" },
             };
         }
 

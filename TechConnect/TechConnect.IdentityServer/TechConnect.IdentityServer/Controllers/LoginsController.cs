@@ -31,7 +31,7 @@ namespace TechConnect.IdentityServer.Controllers
            
             else
             {
-                return Ok(null);
+                return BadRequest();
             }
         }
     }

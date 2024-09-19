@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "7djwfy+0OZ/EEDE00doq6HaJHYNDky1iDcx/3gZQVnE=",
+  "Hash": "0RyyMPYKTBqWSHBFam7qMuvZG4dTFe1RKXGoI63WHUU=",
   "Source": "TechConnect.Api",
   "BasePath": "_content/TechConnect.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\TechConnect.IdentityServer.csproj",
       "Version": 2,
       "Source": "TechConnect.IdentityServer",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "TechConnect.IdentityServer\\wwwroot",
       "Source": "TechConnect.IdentityServer",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\css\\site.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -48,10 +48,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\css\\site.min.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\css\\site.min.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "css/site.min.css",
       "AssetKind": "All",
@@ -67,10 +67,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\css\\site.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\css\\site.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "css/site.scss",
       "AssetKind": "All",
@@ -86,10 +86,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\favicon.ico",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -105,10 +105,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\icon.jpg",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\icon.jpg",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "icon.jpg",
       "AssetKind": "All",
@@ -124,10 +124,10 @@
       "OriginalItemSpec": "wwwroot\\icon.jpg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\icon.png",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\icon.png",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "icon.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\icon.png"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\js\\signin-redirect.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\js\\signin-redirect.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "js/signin-redirect.js",
       "AssetKind": "All",
@@ -162,10 +162,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signin-redirect.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\js\\signout-redirect.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\js\\signout-redirect.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "js/signout-redirect.js",
       "AssetKind": "All",
@@ -181,10 +181,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signout-redirect.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -200,10 +200,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -219,10 +219,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -257,10 +257,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -276,10 +276,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -295,10 +295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -314,10 +314,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -333,10 +333,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -352,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,10 +371,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -390,10 +390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -409,10 +409,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -428,10 +428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -447,10 +447,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -466,10 +466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -485,10 +485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -504,10 +504,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -523,10 +523,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\README.md",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\README.md",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/README.md",
       "AssetKind": "All",
@@ -580,10 +580,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -599,10 +599,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -637,10 +637,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -656,10 +656,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -675,10 +675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -694,10 +694,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -713,10 +713,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -732,10 +732,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_code.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_code.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_code.scss",
       "AssetKind": "All",
@@ -751,10 +751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_code.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_custom-forms.scss",
       "AssetKind": "All",
@@ -770,10 +770,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -789,10 +789,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -808,10 +808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -827,10 +827,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -846,10 +846,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -865,10 +865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_input-group.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_input-group.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_input-group.scss",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_input-group.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_jumbotron.scss",
       "AssetKind": "All",
@@ -903,10 +903,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -922,10 +922,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_media.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_media.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_media.scss",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_media.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -960,10 +960,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -979,10 +979,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -998,10 +998,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -1017,10 +1017,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -1036,10 +1036,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -1055,10 +1055,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_print.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_print.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_print.scss",
       "AssetKind": "All",
@@ -1074,10 +1074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_print.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -1093,10 +1093,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -1112,10 +1112,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -1131,10 +1131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -1150,10 +1150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -1169,10 +1169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -1188,10 +1188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -1226,10 +1226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -1245,10 +1245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -1264,10 +1264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -1283,10 +1283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -1302,10 +1302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -1321,10 +1321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -1359,10 +1359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_background-variant.scss",
       "AssetKind": "All",
@@ -1378,10 +1378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_badge.scss",
       "AssetKind": "All",
@@ -1397,10 +1397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -1416,10 +1416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -1435,10 +1435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -1454,10 +1454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -1473,10 +1473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -1492,10 +1492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -1511,10 +1511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_float.scss",
       "AssetKind": "All",
@@ -1549,10 +1549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -1568,10 +1568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -1587,10 +1587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -1606,10 +1606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_grid-framework.scss",
       "AssetKind": "All",
@@ -1625,10 +1625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_hover.scss",
       "AssetKind": "All",
@@ -1644,10 +1644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -1663,10 +1663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -1682,10 +1682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -1701,10 +1701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_nav-divider.scss",
       "AssetKind": "All",
@@ -1720,10 +1720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -1758,10 +1758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -1777,10 +1777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_screen-reader.scss",
       "AssetKind": "All",
@@ -1796,10 +1796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_size.scss",
       "AssetKind": "All",
@@ -1815,10 +1815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_table-row.scss",
       "AssetKind": "All",
@@ -1834,10 +1834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-emphasis.scss",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-hide.scss",
       "AssetKind": "All",
@@ -1872,10 +1872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -1891,10 +1891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -1910,10 +1910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/mixins/_visibility.scss",
       "AssetKind": "All",
@@ -1929,10 +1929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_align.scss",
       "AssetKind": "All",
@@ -1948,10 +1948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_background.scss",
       "AssetKind": "All",
@@ -1967,10 +1967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_borders.scss",
       "AssetKind": "All",
@@ -1986,10 +1986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_clearfix.scss",
       "AssetKind": "All",
@@ -2005,10 +2005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_display.scss",
       "AssetKind": "All",
@@ -2024,10 +2024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_embed.scss",
       "AssetKind": "All",
@@ -2043,10 +2043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_flex.scss",
       "AssetKind": "All",
@@ -2062,10 +2062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_float.scss",
       "AssetKind": "All",
@@ -2081,10 +2081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_overflow.scss",
       "AssetKind": "All",
@@ -2100,10 +2100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_position.scss",
       "AssetKind": "All",
@@ -2119,10 +2119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_screenreaders.scss",
       "AssetKind": "All",
@@ -2138,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_shadows.scss",
       "AssetKind": "All",
@@ -2157,10 +2157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_sizing.scss",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_spacing.scss",
       "AssetKind": "All",
@@ -2195,10 +2195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_stretched-link.scss",
       "AssetKind": "All",
@@ -2214,10 +2214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_text.scss",
       "AssetKind": "All",
@@ -2233,10 +2233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/utilities/_visibility.scss",
       "AssetKind": "All",
@@ -2252,10 +2252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -2271,10 +2271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2290,10 +2290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2309,10 +2309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2328,10 +2328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/dist/jquery.slim.js",
       "AssetKind": "All",
@@ -2347,10 +2347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.js",
       "AssetKind": "All",
@@ -2366,10 +2366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.map",
       "AssetKind": "All",
@@ -2385,10 +2385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2404,10 +2404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\README.md",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\lib\\jquery\\README.md",
       "SourceId": "TechConnect.IdentityServer",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Yazılım3\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\TechConnect-ECommercialAspNetCore-main\\TechConnect\\TechConnect.IdentityServer\\TechConnect.IdentityServer\\wwwroot\\",
       "BasePath": "_content/TechConnect.IdentityServer",
       "RelativePath": "lib/jquery/README.md",
       "AssetKind": "All",

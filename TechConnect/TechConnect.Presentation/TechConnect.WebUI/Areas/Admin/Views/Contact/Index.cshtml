@@ -1,0 +1,66 @@
+﻿@model List<TechConnect.DtoUI.ContactDtos.ResultContactDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    int sayaç = 0;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- DATA TABLE -->
+        <h3 class="title-5 m-b-35">Mesaj İşlemleri</h3>
+        <br /><br />
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Adı</th>
+                        <th>Emaili</th>
+                        <th>Durum</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        sayaç++;
+                        <tr class="tr-shadow">
+                            <td style="color:darkred;">@sayaç</td>
+                            <td class="desc">@item.Name</td>
+                            <td class="desc">@item.Email</td>
+
+                            <td>
+                                @if (item.Status == true)
+                                {
+                                <span class="text-xs" style="color:darkblue;font-family:Century;"><a type="button" style="color: blue; font-size: 20px;" class="fas fa-check-circle"></a> Okundu</span>
+                                }
+                                else
+                                {
+                                <span class="text-xs " style="color:darkgray;font-family:Century;"><a type="button" style="color:lightgray;font-size: 20px;" class="fas fa-times-circle"> </a> Okunmadı</span>
+                                }
+                            </td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    <a class="btn btn-dark" href="/Admin/Contact/OpenMessage/@item.ID" style="margin-right:5px;" data-toggle="tooltip" data-placement="top" title="Message Open">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </a>
+                                    <a class="btn btn-dark" href="/Admin/Contact/DeleteContact/@item.ID" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- END DATA TABLE -->
+
+        
+    </div>
+</div>

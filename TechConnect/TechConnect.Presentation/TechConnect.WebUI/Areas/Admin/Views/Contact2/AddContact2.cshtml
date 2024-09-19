@@ -1,0 +1,49 @@
+﻿@model TechConnect.DtoUI.Contact2Dtos.CreateContact2Dto
+@{
+    ViewData["Title"] = "AddContact2";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <strong>İletişim Bilgisi</strong>  Ekle
+        </div>
+        <div class="card-body card-block">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Yeri Giriniz</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Place" placeholder="Yeri  giriniz..." class="form-control">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="textarea-input" class=" form-control-label">Adresi Giriniz</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <textarea asp-for="Address" id="textarea-input" rows="9" placeholder="Adresini giriniz..." class="form-control"></textarea>
+                    </div>
+                </div>
+               
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Numara Giriniz</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" asp-for="Number" placeholder="Numara giriniz..." class="form-control">
+                    </div>
+                </div>
+                <br /><br />
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Ekle
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>
+

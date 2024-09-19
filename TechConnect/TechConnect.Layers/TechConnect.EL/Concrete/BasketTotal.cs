@@ -10,7 +10,7 @@ namespace TechConnect.EL.Concrete
 {
     public class BasketTotal:IEntity
     {
-        public BasketTotal(List<BasketItem> basketItems)
+        public BasketTotal()
         {
             BasketItems = new List<BasketItem>();
         }
@@ -20,9 +20,9 @@ namespace TechConnect.EL.Concrete
         public string ID { get; set; }
 
         public string UserId { get; set; }
-        public string DiscountId { get; set; }
+        public string? DiscountId { get; set; }
         [BsonIgnore]
-        public Discount discount { get; set; }
+        public Discount? discount { get; set; }
         public List<BasketItem> BasketItems { get; set; }
         public decimal TotalPrice { get; set; }
         public bool IsFinished { get; set; }
